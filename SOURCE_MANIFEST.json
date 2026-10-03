@@ -1,0 +1,433 @@
+{
+  "description": "Hashes of the 107 input files before adaptation; no local source paths or credentials are distributed.",
+  "files": [
+    {
+      "path": "skills/design-workflow/SKILL.md",
+      "sourceSha256": "97b758e42922eca1fcc153583a91ba09977d8b2ee19cc7322a379560f836e7a8"
+    },
+    {
+      "path": "skills/design-workflow/references/audit.md",
+      "sourceSha256": "3db757e5336eef0830d5601b321b0cf63df71398e97a4468e583fc17f1ef334b"
+    },
+    {
+      "path": "skills/design-workflow/references/canon-clean-saas.md",
+      "sourceSha256": "b98a1af6f138e501316c7fd4fbfb1f97074593d31abe8ebc4281a57cd0deec61"
+    },
+    {
+      "path": "skills/design-workflow/references/discovery.md",
+      "sourceSha256": "a23222d51e855a76e4bde8407a4d2e10aceab07846e5d50fae1a913edf612bbc"
+    },
+    {
+      "path": "skills/design-workflow/scripts/decode_mojibake.py",
+      "sourceSha256": "c9034e60dec7ae635203fee9eff9aea622a84278e1bd6df767943fc8f681fd90"
+    },
+    {
+      "path": "skills/agent-browser/SKILL.md",
+      "sourceSha256": "54ba9ac911f45861b119983132c2a5b954cb0dbadc980e8b14f72ccfcfc5ae6f"
+    },
+    {
+      "path": "skills/agent-browser/references/authentication.md",
+      "sourceSha256": "c46b055f331aa69138abcbd6ad84681c234fa9c4caf74f32709525968db4112b"
+    },
+    {
+      "path": "skills/agent-browser/references/commands.md",
+      "sourceSha256": "a3c24484c99291c4407809bfb216fb106ea9a0744d4b97f9ab4493f22ae1da20"
+    },
+    {
+      "path": "skills/agent-browser/references/proxy-support.md",
+      "sourceSha256": "de78e2cba98518a37de8cc29d6f5f7a9db46388850317b2dc0376bbd5bd09e8b"
+    },
+    {
+      "path": "skills/agent-browser/references/session-management.md",
+      "sourceSha256": "9d7e0117374eba0b8222d7aba2a0dfd40e19315bba1181c9b8b9a236054f560e"
+    },
+    {
+      "path": "skills/agent-browser/references/snapshot-refs.md",
+      "sourceSha256": "4bdcd5e2b7e0b69fd09fe5027adf7bbff2a1201b61cb384bc20419d231ad7dcd"
+    },
+    {
+      "path": "skills/agent-browser/references/video-recording.md",
+      "sourceSha256": "b46aef7efa5da39576fccff5e294a27e583813ce63410b2eef0b559dd1c014f1"
+    },
+    {
+      "path": "skills/agent-browser/templates/authenticated-session.sh",
+      "sourceSha256": "8a458c4dae493fca82e1840731380314eabe6091054e2d46cac0d6d877abd68a"
+    },
+    {
+      "path": "skills/agent-browser/templates/capture-workflow.sh",
+      "sourceSha256": "e0d85509da4b7a233737f29c5d60ebc32234f011d7b78e43b77b99ee2e7fe2fa"
+    },
+    {
+      "path": "skills/agent-browser/templates/form-automation.sh",
+      "sourceSha256": "df4cb56b2c04ab2f707ad003de311d6773b48e6ee6bbef5b36f15e04b8cae44e"
+    },
+    {
+      "path": "skills/ux-heuristics/heuristics.md",
+      "sourceSha256": "247ac34c19ff0195a21713f014e9dd5470569c0e1e875cf848e089e96e8deb84"
+    },
+    {
+      "path": "skills/ux-heuristics/LICENSE",
+      "sourceSha256": "5ca2920d4f56954100c8f365461aba7b6c6154da49734f7b2703d9275ad49d11"
+    },
+    {
+      "path": "skills/ux-heuristics/README.md",
+      "sourceSha256": "2d2c23b984cdced7f63eb6b48fdb58b1a3504857e8bc0da5986cadda574476ce"
+    },
+    {
+      "path": "skills/ux-heuristics/SKILL.md",
+      "sourceSha256": "565bedc1b6aa679610e6c8577730299ef378b5b56ee65da34dc3a9f9e6e1a6b9"
+    },
+    {
+      "path": "skills/ux-principles/laws.md",
+      "sourceSha256": "593417aa79993d806f970b9b05defa093eb035c5a17f292fee39e76e0afa8386"
+    },
+    {
+      "path": "skills/ux-principles/LICENSE",
+      "sourceSha256": "5ca2920d4f56954100c8f365461aba7b6c6154da49734f7b2703d9275ad49d11"
+    },
+    {
+      "path": "skills/ux-principles/principles.md",
+      "sourceSha256": "e024eb2740e17f99596228e4a91c40d0693b61f9293a9cded5cd0e107a00c564"
+    },
+    {
+      "path": "skills/ux-principles/README.md",
+      "sourceSha256": "25c39644892a3792fb3ea16e6a442601d594bc7c786641faca5895b89bca35b9"
+    },
+    {
+      "path": "skills/ux-principles/SKILL.md",
+      "sourceSha256": "279936ec55fb259f6695ec20d0ad4d6df48dc15da74c8e70db0e5be7d7e8f715"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/SKILL.md",
+      "sourceSha256": "88aadd21220542083a455e373bd162ffe7843266a71f06f4d837bb3b34f9c9c7"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/app-interface.csv",
+      "sourceSha256": "f502a372b25ebd186dc850a77462b1a7c0a95c02595122cd6d55a629739073af"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/catalog-summary.json",
+      "sourceSha256": "804ceaa425ac951a2028fb1030ddd44d44f3c2ecccb1aa924f56b8fa6339e70e"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/charts.csv",
+      "sourceSha256": "1fd649c00516a24b193940902548d2584381f1e3cfa048490c9f88cddcf65bb4"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/colors.csv",
+      "sourceSha256": "1c7527d81842b386fbb066376e1e449b05c4bb5db72e6842b51db752801b6fc0"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/data-provenance.json",
+      "sourceSha256": "f171af8a6981559f1feca34e65347515035dc6b983661e0ab1698078e12836d7"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/google-font-licenses.json",
+      "sourceSha256": "7c35e410dd8b5853ca86c3e0e3d3cfb73db1ffa3d9a2fa688c182bc44cd9a8d7"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/google-fonts.csv",
+      "sourceSha256": "d03194d2c35a2cdc4c6846ddde9beb54fdd1f81a3ddc80fead3c0ba2842b75fb"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/icons.csv",
+      "sourceSha256": "272ccf0eb60e50ba7af55de3ef5c195d92e1862d411b6cb80d81dec4fe56deee"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/landing.csv",
+      "sourceSha256": "9efd4568de12dc9e9e4c5b7c1743f3643243232d2dbb9257d30d88613d4bb8fc"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/motion.csv",
+      "sourceSha256": "854b30af6fdd40a735eeed077eabec3a6917923627220bc5062ea8a15165ef6b"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/phosphor-icons-upstream.json",
+      "sourceSha256": "81c37fb3583eb43a91e93f1a62c4da3b4ff089624c06bfe53950b8205b54974d"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/products.csv",
+      "sourceSha256": "c3ef558cf2987e145e90ab22ff71dbe769d38d2c83999bfd63d7dd58b477f73d"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/react-performance.csv",
+      "sourceSha256": "4dc9b897a2150a8f30b4ad18f67ebc62074d1706bde9849c189b7f511fb821d2"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/styles.csv",
+      "sourceSha256": "667595149f49cc894ac4b7b3468e7b9c6b0c2795ebea26dce20ca3f92044d517"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/typography.csv",
+      "sourceSha256": "5c32783790714baaa0f870131aacff021b865495008ed8ab65e7ddf894862581"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/ui-reasoning.csv",
+      "sourceSha256": "8c45627a7ac18cc57b8abe909d840aae3cf9a9f3ef15b8a6e1bf6c64fb02ed64"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/ux-guidelines.csv",
+      "sourceSha256": "0552e850d47fb5b5cf0b2e35784e1d44f6b2aea52c9255193f7eb2588c2c9f4b"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/angular.csv",
+      "sourceSha256": "9fc11f2b1c9efe6aac4e0416f2a022389c1ee005551523fc6a776cd39494eb2c"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/astro.csv",
+      "sourceSha256": "85ddebda566b2814a6088140d06af2b729d582d5df73ba5f954a9009e17b3a5d"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/avalonia.csv",
+      "sourceSha256": "a7ea4a448bb26e50b8eb69f8c191ecb374aaa4ddea6b39deadf2ad5d482e71d9"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/flutter.csv",
+      "sourceSha256": "be5422f81892515ea4646460a7a77c95a4e22db0d112b05d5885757fd5c16016"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+      "sourceSha256": "4004df03af7cf4cdd635d7a2127f6da4f94f6718af6556bee6bc2a14e6093cb8"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/javafx.csv",
+      "sourceSha256": "f1d83197228e5265f80a8cb9598c03c76d4280bfb2804aca6eef841f5972b449"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+      "sourceSha256": "3e39065aa4c08e88117905558979a6bad799f691f72dc570b82b6d206b627a1d"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/laravel.csv",
+      "sourceSha256": "2491ee000953ae99b929bcf9a3937672a8c4e0cc89d4737e12cb5fbe6d46d96d"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/nextjs.csv",
+      "sourceSha256": "ece292708d2d4d41aaa6f339640f4ffc1adf5d052a7d633cc0201d5a79307c37"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+      "sourceSha256": "5b76f8506e34369d23ea70c79f96c6292db91d8c5df52cf6534c7b36b22a4127"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+      "sourceSha256": "ebe9bfe54cb1ee6e26c6776d72fa2290e7ba289d116afd6857e4d68a21475bb4"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/react-native.csv",
+      "sourceSha256": "1f7c99ea422ecd84ba3b0df5920c25f315ca9f3a15cf862a9a7183ed50e9a5e9"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/react.csv",
+      "sourceSha256": "6a4cb8e26393afe21f5a5ec171c6ed1c9438b46a5330923cc3d83bc99406cee6"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/shadcn.csv",
+      "sourceSha256": "14d303b0adef425c388367e6825b92808cacbc0846e554889507c288b9e8e53d"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/svelte.csv",
+      "sourceSha256": "59af6ab78a0550313489441fffe17d7317de5a819aa992b1e2dca73ecb0a82d6"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/swiftui.csv",
+      "sourceSha256": "29b62817abfc03a0789180247ce98ac6fe00b7e54632c328c71af707e68d6915"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/threejs.csv",
+      "sourceSha256": "d690c41d86d87747d6b7be6e6e8cd95432d31edb31f19497c0e56e8997b35cfc"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/uno.csv",
+      "sourceSha256": "a52939b4c3c0fa604ab91d32216b7dba28fcd7b4b03a2e7f46b79749e3241228"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/uwp.csv",
+      "sourceSha256": "ba334d0f2f478d73a7d80528b940f9e2f4ec6a8a7acafae92d69f0fb10837170"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/vue.csv",
+      "sourceSha256": "bb492b870b5bc7abff86dfebe73adad36c811a10907709f6a2da19c388f4edbf"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/winui.csv",
+      "sourceSha256": "0a2b7a991adc8f126a31a953b8ad211a8162889fcc4e66c1484328847b206849"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/wpf.csv",
+      "sourceSha256": "1b98ddc6354f7e3f05071679dae1c1f49dbda7639e48d5ceb2378e82cd3e2594"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/references/pro-rules.md",
+      "sourceSha256": "b64961a5f324bf0c480dd06c6154787298c4baa6d07fdcd8dab1fee7058c09f8"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/references/quick-reference.md",
+      "sourceSha256": "b3ada267d3fa7c6237834683748bc0b486c7c15ebf6f0590ce38bf6b988595d5"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/core.py",
+      "sourceSha256": "9169fdda39bf41c5e528caf04a996f8c943bc8838062967c725fc39522760a4e"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/design_system.py",
+      "sourceSha256": "64457f35d085208d5075f9a519cfc502089a7630ca43976df07652b97566cc41"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+      "sourceSha256": "094c8d35e7e69b243f57c4be5d61096634f8e2144fa03afd2b18c5f97de1cffb"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/search.py",
+      "sourceSha256": "0e106775eed61e2954c0af41e9ed73b816c3bfbb2de936e07957907db846b7d6"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/validate_data.py",
+      "sourceSha256": "0a40f854159a855133d08e73795abf94a8cb30f84c02f4d6e1d1c7a62225b2b6"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_catalog_refresh.py",
+      "sourceSha256": "8f006f97be04669a8c08aec20fcea3c02f54d0e047cbffb4f962b78d1f66a3f4"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_catalog_summary_line_endings.py",
+      "sourceSha256": "273e1843cf64e129b7ca964b36c44bf7bb364d83e30d0a14e9522c3980264ad6"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_core.py",
+      "sourceSha256": "2487a5d776ac2d8070d12686357124523dc0aec94d38acbfdd677e40c51a3857"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_core_data_quality.py",
+      "sourceSha256": "c1e58089471d86667656c2453da49b4adcac1e81d6e84eaddcc4a39fde509ee8"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py",
+      "sourceSha256": "0dfa5544bd5a2bd06a93e9a027dd2bbae0ad6351c37e9b7fb64e5aea78d76aae"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_design_system_mode.py",
+      "sourceSha256": "27554cfbcd375ce8f5b4ac97a0ab420bab182a264bf7d96aa37d3207abdb12c8"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_design_system_stack.py",
+      "sourceSha256": "0f9efc89b66a360933f0e748bbb0ff1a1845f74249632a29b50964825dbe3c6c"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_native_desktop_stack_freshness.py",
+      "sourceSha256": "7fa718a4dc5472fdbe6767eb0fb08e660f9ddad8e27669cb9716e6e950b9857c"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_relevance_evaluator.py",
+      "sourceSha256": "b5aef6bbdefd7b72ca3d23f6331a13671cf40ecbe3fbb20cb735c201e78f8f5a"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_skill_script_paths.py",
+      "sourceSha256": "e9ddd562c16d577675707d9534a01b5237b6a4960a5fffa15c920d9a5b2858e2"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py",
+      "sourceSha256": "1257b28c39f2173289214f9462b780cb296467ba93e382560d076a4792b0df90"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_text_layout_resilience.py",
+      "sourceSha256": "da649f4c3e7ca751b8b5c76495c411f9efd137b78f17ca6e4ad35d831a8326b7"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_web_stack_freshness.py",
+      "sourceSha256": "e35c8835c1c8bbef4c0996df749770ed4ba6598d85791cccfd04896d728bd5cd"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-baseline.json",
+      "sourceSha256": "f1cab931dc0fe61c8e668fbf8b16ae0d3a7374fc9db3481b49624e42aa8a4097"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-cases.json",
+      "sourceSha256": "9ebf970dd96c5ffb62e1c533f344362c7becf4c8773c2956554578986fb4ffb1"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-thresholds.json",
+      "sourceSha256": "d6b65b442a7359b3d3289ee9063ca63b4e6affcb4e4f020592a44da75df89f3c"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-api.json",
+      "sourceSha256": "503a0d00ebf5621b70a1035425701d7204f18998b8a983b8aaf53e69848fcc8c"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-catalog.json",
+      "sourceSha256": "b83a59f0374fbb771b37288cacca3b9525a1c6c435c8b51f34da4e8f7315eb11"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-existing.csv",
+      "sourceSha256": "a897ec8bdccd93f416ec51797e7bd58ecb7009d0fb74b3bca615b1a073b50435"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-metadata.json",
+      "sourceSha256": "12b4a4c05fdb56fa720a01bd83abc3da4a7dde2295998cab59d73a47b9428c10"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-overrides.json",
+      "sourceSha256": "507032ab4482cc5079e427280e904ee89c9f255a0474ff7d32947cc0d75bc541"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/icons-curated.csv",
+      "sourceSha256": "e04ac4ef7d95a09276fec3311759206675609c1358300ea4e960214d6c1accfc"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-core.json",
+      "sourceSha256": "d22fc37d9e2f7db33ee6284590b87adc6664a251748d9ff9a0f9f78eaee5de33"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-package.json",
+      "sourceSha256": "186bfa5abdd5dd1f1629be711dcee8c95edb5c0bd3679c05ce84bd4e927bfde7"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-exports.json",
+      "sourceSha256": "2818efb3acdcfb68632b483928458f500c470bb70b53461f426101bd95b0fa10"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-package.json",
+      "sourceSha256": "c46b8f1a61cbf9211d1b3b6ae6dfd781533e7bbd6c9808cc90fa89d72de4911e"
+    },
+    {
+      "path": "skills/web-artifacts/SKILL.md",
+      "sourceSha256": "5905c85f3ae6746aeb31984dc44dc23173999b3a8451501f647dfd5c1c77643f"
+    },
+    {
+      "path": "skills/web-artifacts/references/cdn.md",
+      "sourceSha256": "5d2bca5a56fa3fc11e834a29d5721cbd48ea6a4801fb18f495e1dbd2e8c28050"
+    },
+    {
+      "path": "skills/web-artifacts/references/mobile-first.md",
+      "sourceSha256": "b709b2e119e63a978e709771e00b56c10e05dfb23dc3c8594ab8f35cff409833"
+    },
+    {
+      "path": "skills/web-artifacts/references/synthwave-theme.md",
+      "sourceSha256": "cdedec58a5b7040a377defe4683d1dd7f2c9386547120d3cb4cdb80ed8e44f74"
+    },
+    {
+      "path": "skills/web-artifacts/templates/bare.html",
+      "sourceSha256": "3c6b4d7e82f3f137786d69fd2fd49b1ad828420a9c00679077d09fea0843acdc"
+    },
+    {
+      "path": "skills/design-system-docs/README.md",
+      "sourceSha256": "d8f3d639cf202f82e4f916600be16d3bf22d6ffc55c228d15cb93662612dc4e9"
+    },
+    {
+      "path": "skills/design-system-docs/SKILL.md",
+      "sourceSha256": "eb15f44646528f3a087ce023329ae699c1b6e803662af68338e1eb1c0406b59b"
+    },
+    {
+      "path": "skills/design-system-docs/examples/DESIGN.md",
+      "sourceSha256": "e856ef5f910f564f3b25a20720e9c74a0691e407e5d0bd8e0abf97b2b7225a24"
+    },
+    {
+      "path": "skills/frontend-design/LICENSE.txt",
+      "sourceSha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549"
+    },
+    {
+      "path": "skills/frontend-design/SKILL.md",
+      "sourceSha256": "b8009ae690dfa69edc7f08bb8715f32db8817112cfa4388741dbaf876c237df8"
+    }
+  ]
+}

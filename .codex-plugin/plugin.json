@@ -1,0 +1,12 @@
+{
+  "name": "design-workflow",
+  "version": "0.1.0",
+  "description": "Portable design workflow with eight bundled skills.",
+  "author": {
+    "name": "VladyTipler",
+    "url": "https://github.com/VladyTipler"
+  },
+  "repository": "https://github.com/VladyTipler/design-workflow-plugin",
+  "skills": "./skills/",
+  "license": "MIT AND Apache-2.0"
+}

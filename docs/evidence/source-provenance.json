@@ -1,0 +1,658 @@
+[
+  {
+    "component": "ui-ux-pro-max",
+    "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "commit": "09170eec67eefd46a7ae85de61b40c194020f997",
+    "normalization": "CRLF to LF for Git blob comparison",
+    "verifiedSourceFiles": [
+      {
+        "path": "SKILL.md",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/SKILL.md"
+        ]
+      },
+      {
+        "path": "data/app-interface.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/app-interface.csv",
+          "cli/assets/data/app-interface.csv",
+          "src/ui-ux-pro-max/data/app-interface.csv"
+        ]
+      },
+      {
+        "path": "data/catalog-summary.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/catalog-summary.json",
+          "cli/assets/data/catalog-summary.json",
+          "src/ui-ux-pro-max/data/catalog-summary.json"
+        ]
+      },
+      {
+        "path": "data/charts.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/charts.csv",
+          "cli/assets/data/charts.csv",
+          "src/ui-ux-pro-max/data/charts.csv"
+        ]
+      },
+      {
+        "path": "data/colors.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/colors.csv",
+          "cli/assets/data/colors.csv",
+          "src/ui-ux-pro-max/data/colors.csv"
+        ]
+      },
+      {
+        "path": "data/data-provenance.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/data-provenance.json",
+          "cli/assets/data/data-provenance.json",
+          "src/ui-ux-pro-max/data/data-provenance.json"
+        ]
+      },
+      {
+        "path": "data/google-font-licenses.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/google-font-licenses.json",
+          "cli/assets/data/google-font-licenses.json",
+          "src/ui-ux-pro-max/data/google-font-licenses.json"
+        ]
+      },
+      {
+        "path": "data/google-fonts.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/google-fonts.csv",
+          "cli/assets/data/google-fonts.csv",
+          "src/ui-ux-pro-max/data/google-fonts.csv"
+        ]
+      },
+      {
+        "path": "data/icons.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/icons.csv",
+          "cli/assets/data/icons.csv",
+          "src/ui-ux-pro-max/data/icons.csv"
+        ]
+      },
+      {
+        "path": "data/landing.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/landing.csv",
+          "cli/assets/data/landing.csv",
+          "src/ui-ux-pro-max/data/landing.csv"
+        ]
+      },
+      {
+        "path": "data/motion.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/motion.csv",
+          "cli/assets/data/motion.csv",
+          "src/ui-ux-pro-max/data/motion.csv"
+        ]
+      },
+      {
+        "path": "data/phosphor-icons-upstream.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/phosphor-icons-upstream.json",
+          "cli/assets/data/phosphor-icons-upstream.json",
+          "src/ui-ux-pro-max/data/phosphor-icons-upstream.json"
+        ]
+      },
+      {
+        "path": "data/products.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/products.csv",
+          "cli/assets/data/products.csv",
+          "src/ui-ux-pro-max/data/products.csv"
+        ]
+      },
+      {
+        "path": "data/react-performance.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/react-performance.csv",
+          "cli/assets/data/react-performance.csv",
+          "src/ui-ux-pro-max/data/react-performance.csv"
+        ]
+      },
+      {
+        "path": "data/styles.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/styles.csv",
+          "cli/assets/data/styles.csv",
+          "src/ui-ux-pro-max/data/styles.csv"
+        ]
+      },
+      {
+        "path": "data/typography.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/typography.csv",
+          "cli/assets/data/typography.csv",
+          "src/ui-ux-pro-max/data/typography.csv"
+        ]
+      },
+      {
+        "path": "data/ui-reasoning.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/ui-reasoning.csv",
+          "cli/assets/data/ui-reasoning.csv",
+          "src/ui-ux-pro-max/data/ui-reasoning.csv"
+        ]
+      },
+      {
+        "path": "data/ux-guidelines.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/ux-guidelines.csv",
+          "cli/assets/data/ux-guidelines.csv",
+          "src/ui-ux-pro-max/data/ux-guidelines.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/angular.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/angular.csv",
+          "cli/assets/data/stacks/angular.csv",
+          "src/ui-ux-pro-max/data/stacks/angular.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/astro.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/astro.csv",
+          "cli/assets/data/stacks/astro.csv",
+          "src/ui-ux-pro-max/data/stacks/astro.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/avalonia.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/avalonia.csv",
+          "cli/assets/data/stacks/avalonia.csv",
+          "src/ui-ux-pro-max/data/stacks/avalonia.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/flutter.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/flutter.csv",
+          "cli/assets/data/stacks/flutter.csv",
+          "src/ui-ux-pro-max/data/stacks/flutter.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/html-tailwind.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+          "cli/assets/data/stacks/html-tailwind.csv",
+          "src/ui-ux-pro-max/data/stacks/html-tailwind.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/javafx.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/javafx.csv",
+          "cli/assets/data/stacks/javafx.csv",
+          "src/ui-ux-pro-max/data/stacks/javafx.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/jetpack-compose.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+          "cli/assets/data/stacks/jetpack-compose.csv",
+          "src/ui-ux-pro-max/data/stacks/jetpack-compose.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/laravel.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/laravel.csv",
+          "cli/assets/data/stacks/laravel.csv",
+          "src/ui-ux-pro-max/data/stacks/laravel.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/nextjs.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/nextjs.csv",
+          "cli/assets/data/stacks/nextjs.csv",
+          "src/ui-ux-pro-max/data/stacks/nextjs.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/nuxt-ui.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+          "cli/assets/data/stacks/nuxt-ui.csv",
+          "src/ui-ux-pro-max/data/stacks/nuxt-ui.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/nuxtjs.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+          "cli/assets/data/stacks/nuxtjs.csv",
+          "src/ui-ux-pro-max/data/stacks/nuxtjs.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/react-native.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/react-native.csv",
+          "cli/assets/data/stacks/react-native.csv",
+          "src/ui-ux-pro-max/data/stacks/react-native.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/react.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/react.csv",
+          "cli/assets/data/stacks/react.csv",
+          "src/ui-ux-pro-max/data/stacks/react.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/shadcn.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/shadcn.csv",
+          "cli/assets/data/stacks/shadcn.csv",
+          "src/ui-ux-pro-max/data/stacks/shadcn.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/svelte.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/svelte.csv",
+          "cli/assets/data/stacks/svelte.csv",
+          "src/ui-ux-pro-max/data/stacks/svelte.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/swiftui.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/swiftui.csv",
+          "cli/assets/data/stacks/swiftui.csv",
+          "src/ui-ux-pro-max/data/stacks/swiftui.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/threejs.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/threejs.csv",
+          "cli/assets/data/stacks/threejs.csv",
+          "src/ui-ux-pro-max/data/stacks/threejs.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/uno.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/uno.csv",
+          "cli/assets/data/stacks/uno.csv",
+          "src/ui-ux-pro-max/data/stacks/uno.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/uwp.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/uwp.csv",
+          "cli/assets/data/stacks/uwp.csv",
+          "src/ui-ux-pro-max/data/stacks/uwp.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/vue.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/vue.csv",
+          "cli/assets/data/stacks/vue.csv",
+          "src/ui-ux-pro-max/data/stacks/vue.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/winui.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/winui.csv",
+          "cli/assets/data/stacks/winui.csv",
+          "src/ui-ux-pro-max/data/stacks/winui.csv"
+        ]
+      },
+      {
+        "path": "data/stacks/wpf.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/data/stacks/wpf.csv",
+          "cli/assets/data/stacks/wpf.csv",
+          "src/ui-ux-pro-max/data/stacks/wpf.csv"
+        ]
+      },
+      {
+        "path": "references/pro-rules.md",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/references/pro-rules.md"
+        ]
+      },
+      {
+        "path": "references/quick-reference.md",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/references/quick-reference.md"
+        ]
+      },
+      {
+        "path": "scripts/core.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/core.py",
+          "cli/assets/scripts/core.py",
+          "src/ui-ux-pro-max/scripts/core.py"
+        ]
+      },
+      {
+        "path": "scripts/design_system.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/design_system.py",
+          "cli/assets/scripts/design_system.py",
+          "src/ui-ux-pro-max/scripts/design_system.py"
+        ]
+      },
+      {
+        "path": "scripts/reasoning_contract.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+          "cli/assets/scripts/reasoning_contract.py",
+          "src/ui-ux-pro-max/scripts/reasoning_contract.py"
+        ]
+      },
+      {
+        "path": "scripts/search.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/search.py",
+          "cli/assets/scripts/search.py",
+          "src/ui-ux-pro-max/scripts/search.py"
+        ]
+      },
+      {
+        "path": "scripts/validate_data.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/validate_data.py",
+          "cli/assets/scripts/validate_data.py",
+          "src/ui-ux-pro-max/scripts/validate_data.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/test_catalog_refresh.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/test_catalog_refresh.py",
+          "cli/assets/scripts/tests/test_catalog_refresh.py",
+          "src/ui-ux-pro-max/scripts/tests/test_catalog_refresh.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/test_catalog_summary_line_endings.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/test_catalog_summary_line_endings.py",
+          "cli/assets/scripts/tests/test_catalog_summary_line_endings.py",
+          "src/ui-ux-pro-max/scripts/tests/test_catalog_summary_line_endings.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/test_core.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/test_core.py",
+          "cli/assets/scripts/tests/test_core.py",
+          "src/ui-ux-pro-max/scripts/tests/test_core.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/test_core_data_quality.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/test_core_data_quality.py",
+          "cli/assets/scripts/tests/test_core_data_quality.py",
+          "src/ui-ux-pro-max/scripts/tests/test_core_data_quality.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/test_data_contracts.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py",
+          "cli/assets/scripts/tests/test_data_contracts.py",
+          "src/ui-ux-pro-max/scripts/tests/test_data_contracts.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/test_design_system_mode.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/test_design_system_mode.py",
+          "cli/assets/scripts/tests/test_design_system_mode.py",
+          "src/ui-ux-pro-max/scripts/tests/test_design_system_mode.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/test_design_system_stack.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/test_design_system_stack.py",
+          "cli/assets/scripts/tests/test_design_system_stack.py",
+          "src/ui-ux-pro-max/scripts/tests/test_design_system_stack.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/test_native_desktop_stack_freshness.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/test_native_desktop_stack_freshness.py",
+          "cli/assets/scripts/tests/test_native_desktop_stack_freshness.py",
+          "src/ui-ux-pro-max/scripts/tests/test_native_desktop_stack_freshness.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/test_relevance_evaluator.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/test_relevance_evaluator.py",
+          "cli/assets/scripts/tests/test_relevance_evaluator.py",
+          "src/ui-ux-pro-max/scripts/tests/test_relevance_evaluator.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/test_skill_script_paths.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/test_skill_script_paths.py",
+          "cli/assets/scripts/tests/test_skill_script_paths.py",
+          "src/ui-ux-pro-max/scripts/tests/test_skill_script_paths.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/test_style_taxonomy.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py",
+          "cli/assets/scripts/tests/test_style_taxonomy.py",
+          "src/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/test_text_layout_resilience.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/test_text_layout_resilience.py",
+          "cli/assets/scripts/tests/test_text_layout_resilience.py",
+          "src/ui-ux-pro-max/scripts/tests/test_text_layout_resilience.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/test_web_stack_freshness.py",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/test_web_stack_freshness.py",
+          "cli/assets/scripts/tests/test_web_stack_freshness.py",
+          "src/ui-ux-pro-max/scripts/tests/test_web_stack_freshness.py"
+        ]
+      },
+      {
+        "path": "scripts/tests/fixtures/relevance-baseline.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-baseline.json",
+          "cli/assets/scripts/tests/fixtures/relevance-baseline.json",
+          "src/ui-ux-pro-max/scripts/tests/fixtures/relevance-baseline.json"
+        ]
+      },
+      {
+        "path": "scripts/tests/fixtures/relevance-cases.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-cases.json",
+          "cli/assets/scripts/tests/fixtures/relevance-cases.json",
+          "src/ui-ux-pro-max/scripts/tests/fixtures/relevance-cases.json"
+        ]
+      },
+      {
+        "path": "scripts/tests/fixtures/relevance-thresholds.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-thresholds.json",
+          "cli/assets/scripts/tests/fixtures/relevance-thresholds.json",
+          "src/ui-ux-pro-max/scripts/tests/fixtures/relevance-thresholds.json"
+        ]
+      },
+      {
+        "path": "scripts/tests/fixtures/catalogs/google-api.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-api.json",
+          "cli/assets/scripts/tests/fixtures/catalogs/google-api.json",
+          "src/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-api.json"
+        ]
+      },
+      {
+        "path": "scripts/tests/fixtures/catalogs/google-catalog.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-catalog.json",
+          "cli/assets/scripts/tests/fixtures/catalogs/google-catalog.json",
+          "src/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-catalog.json"
+        ]
+      },
+      {
+        "path": "scripts/tests/fixtures/catalogs/google-existing.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-existing.csv",
+          "cli/assets/scripts/tests/fixtures/catalogs/google-existing.csv",
+          "src/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-existing.csv"
+        ]
+      },
+      {
+        "path": "scripts/tests/fixtures/catalogs/google-metadata.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-metadata.json",
+          "cli/assets/scripts/tests/fixtures/catalogs/google-metadata.json",
+          "src/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-metadata.json"
+        ]
+      },
+      {
+        "path": "scripts/tests/fixtures/catalogs/google-overrides.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-overrides.json",
+          "cli/assets/scripts/tests/fixtures/catalogs/google-overrides.json",
+          "src/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-overrides.json"
+        ]
+      },
+      {
+        "path": "scripts/tests/fixtures/catalogs/icons-curated.csv",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/icons-curated.csv",
+          "cli/assets/scripts/tests/fixtures/catalogs/icons-curated.csv",
+          "src/ui-ux-pro-max/scripts/tests/fixtures/catalogs/icons-curated.csv"
+        ]
+      },
+      {
+        "path": "scripts/tests/fixtures/catalogs/phosphor-core.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-core.json",
+          "cli/assets/scripts/tests/fixtures/catalogs/phosphor-core.json",
+          "src/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-core.json"
+        ]
+      },
+      {
+        "path": "scripts/tests/fixtures/catalogs/phosphor-package.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-package.json",
+          "cli/assets/scripts/tests/fixtures/catalogs/phosphor-package.json",
+          "src/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-package.json"
+        ]
+      },
+      {
+        "path": "scripts/tests/fixtures/catalogs/phosphor-react-exports.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-exports.json",
+          "cli/assets/scripts/tests/fixtures/catalogs/phosphor-react-exports.json",
+          "src/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-exports.json"
+        ]
+      },
+      {
+        "path": "scripts/tests/fixtures/catalogs/phosphor-react-package.json",
+        "upstreamPaths": [
+          ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-package.json",
+          "cli/assets/scripts/tests/fixtures/catalogs/phosphor-react-package.json",
+          "src/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-package.json"
+        ]
+      }
+    ],
+    "unmatchedFiles": []
+  },
+  {
+    "component": "agent-browser",
+    "repository": "https://github.com/vercel-labs/agent-browser",
+    "commit": "4d8097a56fe9990eb2e5cecb6d167eb6897eda06",
+    "normalization": "CRLF to LF for Git blob comparison",
+    "verifiedSourceFiles": [
+      {
+        "path": "SKILL.md",
+        "upstreamPaths": [
+          "skills/agent-browser/SKILL.md"
+        ]
+      },
+      {
+        "path": "references/authentication.md",
+        "upstreamPaths": [
+          "skills/agent-browser/references/authentication.md"
+        ]
+      },
+      {
+        "path": "references/commands.md",
+        "upstreamPaths": [
+          "skills/agent-browser/references/commands.md"
+        ]
+      },
+      {
+        "path": "references/proxy-support.md",
+        "upstreamPaths": [
+          "skills/agent-browser/references/proxy-support.md"
+        ]
+      },
+      {
+        "path": "references/session-management.md",
+        "upstreamPaths": [
+          "skills/agent-browser/references/session-management.md"
+        ]
+      },
+      {
+        "path": "references/snapshot-refs.md",
+        "upstreamPaths": [
+          "skills/agent-browser/references/snapshot-refs.md"
+        ]
+      },
+      {
+        "path": "references/video-recording.md",
+        "upstreamPaths": [
+          "skills/agent-browser/references/video-recording.md"
+        ]
+      },
+      {
+        "path": "templates/authenticated-session.sh",
+        "upstreamPaths": [
+          "skills/agent-browser/templates/authenticated-session.sh"
+        ]
+      },
+      {
+        "path": "templates/capture-workflow.sh",
+        "upstreamPaths": [
+          "skills/agent-browser/templates/capture-workflow.sh"
+        ]
+      },
+      {
+        "path": "templates/form-automation.sh",
+        "upstreamPaths": [
+          "skills/agent-browser/templates/form-automation.sh"
+        ]
+      }
+    ],
+    "unmatchedFiles": []
+  }
+]

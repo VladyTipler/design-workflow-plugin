@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{TITLE}}</title>
+
+  <!--
+    BARE SCAFFOLD — НЕ финальный артефакт.
+
+    Этот файл — нейтральный технический каркас:
+      • viewport + box-sizing reset
+      • mobile-first responsive container (1 колонка на телефоне)
+      • базовый шрифт 16px (защита от iOS-zoom при тапе на инпуты)
+      • тап-таргеты ≥ 44px
+      • CSS-переменные как ТОЧКИ ВСТАВКИ для эстетики
+
+    Эстетическое решение (палитра, шрифты, motion, layout choices) НЕ зашито
+    в этот файл сознательно. ОБЯЗАТЕЛЬНО запусти skill `frontend-design`,
+    используй утверждённый канон, а при его отсутствии выбери aesthetic direction под контент, и стилизуй артефакт
+    оттуда. CSS-переменные ниже — placeholder'ы, которые перезапишет твоё решение.
+
+    Дефолтные значения переменных намеренно «никакие» (чёрно-белые), чтобы
+    их следует заменить выбранными токенами. Утверждённый чёрно-белый канон допустим.
+  -->
+
+  <style>
+    :root {
+      /* Используй утверждённый канон; иначе выбранное направление frontend-design */
+      --bg: #ffffff;
+      --fg: #111111;
+      --muted: #6b7280;
+      --surface: #f5f5f5;
+      --border: #e5e5e5;
+      --accent: #000000;
+      --accent-contrast: #ffffff;
+      --font-display: serif;
+      --font-body: sans-serif;
+      --radius: 8px;
+      --pad: 16px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--fg);
+      background: var(--bg);
+      padding: 20px var(--pad);
+      min-height: 100vh;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .container { max-width: 100%; margin: 0 auto; }
+
+    h1, h2, h3 { font-family: var(--font-display); margin: 0 0 12px; line-height: 1.2; }
+    h1 { font-size: 28px; }
+    h2 { font-size: 22px; margin-top: 28px; }
+    h3 { font-size: 18px; margin-top: 20px; }
+
+    p { margin: 0 0 12px; }
+    a { color: var(--accent); }
+
+    .muted { color: var(--muted); }
+
+    /* Тап-таргет ≥ 44px (hard mobile-first rule) */
+    .btn, button, .tap {
+      display: inline-block;
+      min-height: 44px;
+      padding: 12px 16px;
+      border-radius: var(--radius);
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    /* Таблицы: горизонтальный скролл-контейнер */
+    .table-scroll {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin: 0 calc(var(--pad) * -1);
+      padding: 0 var(--pad);
+    }
+
+    /* Chart.js обёртка с фиксированной высотой (responsive: true работает только с этим) */
+    .chart-wrap { position: relative; height: 280px; width: 100%; }
+
+    img { max-width: 100%; height: auto; display: block; }
+    code { font-family: ui-monospace, "SF Mono", monospace; font-size: 14px; }
+
+    /* Desktop bumps (mobile остаётся 1 колонкой) */
+    @media (min-width: 768px) {
+      body { padding: 32px; }
+      .container { max-width: 760px; }
+      h1 { font-size: 36px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>{{TITLE}}</h1>
+    <p class="muted">{{SUBTITLE}}</p>
+
+    <!-- Контент сюда. Применяй утверждённый канон, включая чёрно-белый; без канона используй выбранное направление frontend-design. -->
+  </div>
+</body>
+</html>

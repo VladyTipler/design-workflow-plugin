@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Example Workspace — local prototype</title>
+<style>
+:root{color-scheme:light;--bg:#f7f8fa;--card:#fff;--ink:#101828;--muted:#475467;--border:#d0d5dd;--accent:#414fc0;--soft:#eef0fb}
+html[data-theme=dark]{color-scheme:dark;--bg:#101216;--card:#171a21;--ink:#e8ebf1;--muted:#aab3c2;--border:#39404d;--accent:#a7b0ff;--soft:#222642}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif}
+main{max-width:960px;margin:auto;padding:24px 16px}header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+h1{font-size:clamp(24px,4vw,36px);line-height:1.2;margin:8px 0}h2{font-size:22px;margin:0 0 12px}
+.eyebrow,.muted{color:var(--muted)}.eyebrow{font-size:14px;letter-spacing:.06em}
+.panel{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin:24px 0}
+button,input{font:inherit;color:inherit;min-height:44px;border-radius:8px;border:1px solid var(--border);background:var(--card)}
+button{padding:8px 14px;cursor:pointer}button.primary{background:var(--accent);color:var(--card);border-color:var(--accent)}
+html[data-theme=dark] button.primary{color:#101216}button:hover{filter:brightness(.94)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}input{width:100%;padding:10px}
+label{display:block;font-weight:600;margin:12px 0 6px}.row{display:flex;gap:12px;align-items:end}.row>*:first-child{flex:1;min-width:0}
+ul{padding:0;list-style:none;margin:16px 0 0}li{display:flex;gap:16px;align-items:center;justify-content:space-between;padding:16px 0;border-top:1px solid var(--border)}
+li span{overflow-wrap:anywhere}.tag{display:inline-block;font-size:13px;background:var(--soft);color:var(--accent);padding:3px 8px;border-radius:20px}
+#status{min-height:24px;color:var(--muted)}#error{color:#b42318}html[data-theme=dark] #error{color:#ffb4ab}
+footer{color:var(--muted);font-size:14px;padding-bottom:24px}nav{display:flex;flex-wrap:wrap;gap:12px}
+@media(max-width:560px){header{align-items:start}.row{display:block}.row button{width:100%;margin-top:12px}.panel{padding:16px}li{align-items:start}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style></head><body><main>
+<header><div><div class="eyebrow">LOCAL / INTERACTIVE EXAMPLE</div><h1>Example Workspace</h1></div><button id="theme" aria-pressed="false">Dark theme</button></header>
+<p class="muted">A focused queue for a small team. All content below is fictional demo data.</p>
+<nav aria-label="Page sections"><a href="#queue">Task queue</a><a href="#notes">Prototype notes</a></nav>
+<section class="panel" id="queue" aria-labelledby="queue-title"><div class="tag">Demo</div><h2 id="queue-title">Next actions</h2>
+<label for="search">Filter tasks</label><input id="search" type="search" placeholder="Search by task name">
+<form id="add-form"><div class="row"><div><label for="task-name">New task</label><input id="task-name" maxlength="120" aria-describedby="error"></div><button class="primary" type="submit">Add task</button></div>
+<p id="error" role="alert"></p></form>
+<p id="count" aria-live="polite"></p><ul id="tasks"></ul><p id="empty" hidden>No matching tasks. Clear the filter or add a task.</p>
+<p id="status" role="status">Changes are simulated and stay in this tab.</p><button id="undo" hidden>Undo completion</button>
+</section>
+<section class="panel" id="notes"><h2>Prototype notes</h2><p>Theme, filtering, adding tasks, completion and undo work locally. There is no real service integration or permanent storage.</p><p>Reload restores demo content. Do not enter personal information.</p></section>
+<footer>Standalone HTML · No server · No external runtime resources</footer>
+</main><script>
+const tasks=[{id:1,name:'Review the chosen layout'},{id:2,name:'Document focus and error states'},{id:3,name:'Check the mobile prototype'}];
+let nextId=4,lastRemoved=null;
+const list=document.getElementById('tasks'),search=document.getElementById('search'),empty=document.getElementById('empty'),status=document.getElementById('status'),undo=document.getElementById('undo');
+function render(){
+ const needle=search.value.trim().toLowerCase();list.replaceChildren();
+ const visible=tasks.filter(t=>t.name.toLowerCase().includes(needle));
+ visible.forEach(task=>{const li=document.createElement('li'),name=document.createElement('span'),button=document.createElement('button');
+ name.textContent=task.name;button.textContent='Complete';button.setAttribute('aria-label','Complete: '+task.name);
+ button.addEventListener('click',()=>{const index=tasks.findIndex(t=>t.id===task.id);lastRemoved={task:tasks[index],index};tasks.splice(index,1);undo.hidden=false;status.textContent='Completed: '+task.name+'. Undo is available.';render();undo.focus();});
+ li.append(name,button);list.append(li);});
+ empty.hidden=visible.length!==0;document.getElementById('count').textContent=visible.length+' shown / '+tasks.length+' total';
+}
+search.addEventListener('input',render);
+document.getElementById('add-form').addEventListener('submit',event=>{event.preventDefault();const input=document.getElementById('task-name'),error=document.getElementById('error'),name=input.value.trim();
+ if(!name){error.textContent='Enter a task name.';input.setAttribute('aria-invalid','true');input.focus();return;}
+ error.textContent='';input.removeAttribute('aria-invalid');tasks.push({id:nextId++,name});input.value='';status.textContent='Added: '+name;render();});
+undo.addEventListener('click',()=>{if(!lastRemoved)return;tasks.splice(lastRemoved.index,0,lastRemoved.task);status.textContent='Completion undone.';lastRemoved=null;undo.hidden=true;render();search.focus();});
+const theme=document.getElementById('theme');
+theme.addEventListener('click',()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';theme.setAttribute('aria-pressed',String(dark));theme.textContent=dark?'Light theme':'Dark theme';});
+render();
+</script></body></html>

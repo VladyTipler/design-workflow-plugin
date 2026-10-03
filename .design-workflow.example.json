@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "outputDir": "artifacts/design",
+  "artifactMode": "local",
+  "remote": null
+}

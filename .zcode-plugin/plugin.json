@@ -1,0 +1,11 @@
+{
+  "name": "design-workflow",
+  "version": "0.1.0",
+  "description": "Portable UX audit, design exploration, local HTML prototyping and design-system documentation.",
+  "author": {
+    "name": "VladyTipler",
+    "url": "https://github.com/VladyTipler"
+  },
+  "repository": "https://github.com/VladyTipler/design-workflow-plugin",
+  "license": "MIT AND Apache-2.0"
+}

@@ -1,0 +1,989 @@
+{
+  "description": "Complete package snapshot. This manifest itself is excluded from hashes to avoid self-reference.",
+  "totalFilesIncludingManifest": 145,
+  "originalResourceCount": 107,
+  "skillFileCounts": {
+    "agent-browser": 11,
+    "design-system-docs": 5,
+    "design-workflow": 5,
+    "frontend-design": 2,
+    "ui-ux-pro-max": 75,
+    "ux-heuristics": 4,
+    "ux-principles": 5,
+    "web-artifacts": 8
+  },
+  "externalReferenceCount": 2995,
+  "files": [
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "bytes": 406,
+      "sha256": "3d96f3187245d5b29cac531f10e46837e6ceb620a5569bf3077bdf6bfe2a74af",
+      "status": "added"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "bytes": 464,
+      "sha256": "ca689769c093cfbe36bac3271044a44afd15822a4bed5246ecbf7cb0eb8458e6",
+      "status": "added"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 378,
+      "sha256": "5ce45b9b551035c4747f860ad9b472a61c5982d53560298671aa5fbde7b9e131",
+      "status": "added"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "bytes": 361,
+      "sha256": "6d231ad1c735032f95948dbff62666bc463cd86c70422b22534d0d577cb28433",
+      "status": "added"
+    },
+    {
+      "path": ".design-workflow.example.json",
+      "bytes": 105,
+      "sha256": "9c3ca08c3989aa8329da129b31bf86b3ab578f798762908e907a16d64e7ae237",
+      "status": "added"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 64,
+      "sha256": "9692dbb2aee28a998dfb4f63f1a6a0e3a8b92ecfc99fd3187a991424df46c0db",
+      "status": "added"
+    },
+    {
+      "path": ".zcode-plugin/plugin.json",
+      "bytes": 378,
+      "sha256": "5ce45b9b551035c4747f860ad9b472a61c5982d53560298671aa5fbde7b9e131",
+      "status": "added"
+    },
+    {
+      "path": "docs/compatibility.md",
+      "bytes": 3798,
+      "sha256": "dffd88261a4c365c91e422678ba07291701aa5918c0f010b0fd3a02f12de4ddf",
+      "status": "added"
+    },
+    {
+      "path": "docs/configuration.md",
+      "bytes": 2165,
+      "sha256": "e990687f2663fbe148b9c4e86302b46d3109e35511063da8d439617e30a42098",
+      "status": "added"
+    },
+    {
+      "path": "docs/dependencies.md",
+      "bytes": 2396,
+      "sha256": "b29375ca26310cf51fe2298f3e24c330e9012da3c3c3a0c62d55b4daed1785e5",
+      "status": "added"
+    },
+    {
+      "path": "docs/evidence/browser-results.json",
+      "bytes": 877,
+      "sha256": "29fc6092953b796a032b33b07b2324b6a9e106ba49a72228a60fd0865f39e3ac",
+      "status": "added"
+    },
+    {
+      "path": "docs/evidence/desktop.png",
+      "bytes": 54637,
+      "sha256": "a2400b5b9101f032a374288fa48098948f756cf109ba0541725829843617b52b",
+      "status": "added"
+    },
+    {
+      "path": "docs/evidence/isolated-copy-results.json",
+      "bytes": 577,
+      "sha256": "e4c5513e80a88b64f179cf4f7bdf4610086db77d38d5d7343c112b3a69244a5d",
+      "status": "added"
+    },
+    {
+      "path": "docs/evidence/mobile.png",
+      "bytes": 53185,
+      "sha256": "50f80c7bb69191253172e8df8b8efbf7ae914203abf2566c444b2d4c6892f281",
+      "status": "added"
+    },
+    {
+      "path": "docs/evidence/source-integrity.json",
+      "bytes": 221,
+      "sha256": "9a3fc9c46006b51972696fc02afa8ba7ab4c67c30bc7ec63c1a574db20d06672",
+      "status": "added"
+    },
+    {
+      "path": "docs/evidence/source-provenance.json",
+      "bytes": 24002,
+      "sha256": "1e4c026522e656b6c73f173c5d0bbf5d23364eaa3418e950c9d9a2eac6dbd5d6",
+      "status": "added"
+    },
+    {
+      "path": "docs/plans/2026-10-03-portable-design.md",
+      "bytes": 1824,
+      "sha256": "b00572d4e903bb1c2244f55e7fd37273878d2f6d3dcbe9dcaf6ffe637d2f3053",
+      "status": "added"
+    },
+    {
+      "path": "docs/validation.md",
+      "bytes": 3600,
+      "sha256": "3843372c907be01ec98f3998797ddce24a57da2f9740280ee5debe1ff9fe360a",
+      "status": "added"
+    },
+    {
+      "path": "EXTERNAL_REFERENCES.json",
+      "bytes": 720604,
+      "sha256": "7f80091fc6a5e0fa2febd830f805770178cae49b8a5eecabe3c1321774f3b240",
+      "status": "added"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1374,
+      "sha256": "e9120fb39a25e0f9f90192d737366c313e19d4250e57aadf837ddf0ebd9ac844",
+      "status": "added"
+    },
+    {
+      "path": "marketplace.json",
+      "bytes": 464,
+      "sha256": "ca689769c093cfbe36bac3271044a44afd15822a4bed5246ecbf7cb0eb8458e6",
+      "status": "added"
+    },
+    {
+      "path": "plugin.json",
+      "bytes": 454,
+      "sha256": "6f7cc2be0ba3985877eb1f4d11f4f5b587ee5491aee4d043b926f85d6845fcce",
+      "status": "added"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10298,
+      "sha256": "9ac36bfb90e17dc536f2ceb4933afc70a89dfc380efbb46b9c1d3fe67cb7afc1",
+      "status": "added"
+    },
+    {
+      "path": "scripts/build_manifest.py",
+      "bytes": 2814,
+      "sha256": "764abf5526906d396098eb3769dff83f0fb2323304760882fab17e08f772b84a",
+      "status": "added"
+    },
+    {
+      "path": "scripts/run_ui_tests.py",
+      "bytes": 931,
+      "sha256": "873d40432e5c734b52e1b266fc7b76ad261f586a79608956c35c78c3cbec6cd0",
+      "status": "added"
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "bytes": 4304,
+      "sha256": "47c08d6b38bc682d5ac30d5825411e2763c4a19ff7353e72d313086d25504ee0",
+      "status": "added"
+    },
+    {
+      "path": "skills/agent-browser/LICENSE",
+      "bytes": 10931,
+      "sha256": "014bb31e83d5c2e76aea1cc6e82217346ab41362f32cb355ad0f5c10aa0aeaff",
+      "status": "added"
+    },
+    {
+      "path": "skills/agent-browser/references/authentication.md",
+      "bytes": 5225,
+      "sha256": "c46b055f331aa69138abcbd6ad84681c234fa9c4caf74f32709525968db4112b",
+      "status": "unchanged",
+      "sourceSha256": "c46b055f331aa69138abcbd6ad84681c234fa9c4caf74f32709525968db4112b"
+    },
+    {
+      "path": "skills/agent-browser/references/commands.md",
+      "bytes": 9818,
+      "sha256": "a3c24484c99291c4407809bfb216fb106ea9a0744d4b97f9ab4493f22ae1da20",
+      "status": "unchanged",
+      "sourceSha256": "a3c24484c99291c4407809bfb216fb106ea9a0744d4b97f9ab4493f22ae1da20"
+    },
+    {
+      "path": "skills/agent-browser/references/proxy-support.md",
+      "bytes": 4874,
+      "sha256": "de78e2cba98518a37de8cc29d6f5f7a9db46388850317b2dc0376bbd5bd09e8b",
+      "status": "unchanged",
+      "sourceSha256": "de78e2cba98518a37de8cc29d6f5f7a9db46388850317b2dc0376bbd5bd09e8b"
+    },
+    {
+      "path": "skills/agent-browser/references/session-management.md",
+      "bytes": 4530,
+      "sha256": "9d7e0117374eba0b8222d7aba2a0dfd40e19315bba1181c9b8b9a236054f560e",
+      "status": "unchanged",
+      "sourceSha256": "9d7e0117374eba0b8222d7aba2a0dfd40e19315bba1181c9b8b9a236054f560e"
+    },
+    {
+      "path": "skills/agent-browser/references/snapshot-refs.md",
+      "bytes": 4493,
+      "sha256": "4bdcd5e2b7e0b69fd09fe5027adf7bbff2a1201b61cb384bc20419d231ad7dcd",
+      "status": "unchanged",
+      "sourceSha256": "4bdcd5e2b7e0b69fd09fe5027adf7bbff2a1201b61cb384bc20419d231ad7dcd"
+    },
+    {
+      "path": "skills/agent-browser/references/video-recording.md",
+      "bytes": 3742,
+      "sha256": "b46aef7efa5da39576fccff5e294a27e583813ce63410b2eef0b559dd1c014f1",
+      "status": "unchanged",
+      "sourceSha256": "b46aef7efa5da39576fccff5e294a27e583813ce63410b2eef0b559dd1c014f1"
+    },
+    {
+      "path": "skills/agent-browser/SKILL.md",
+      "bytes": 8278,
+      "sha256": "3480c8b74cae2d8d35ef0720613af0a6e11839edd608a76f95a48eb01e1f1eb1",
+      "status": "adapted",
+      "sourceSha256": "54ba9ac911f45861b119983132c2a5b954cb0dbadc980e8b14f72ccfcfc5ae6f"
+    },
+    {
+      "path": "skills/agent-browser/templates/authenticated-session.sh",
+      "bytes": 3342,
+      "sha256": "8a458c4dae493fca82e1840731380314eabe6091054e2d46cac0d6d877abd68a",
+      "status": "unchanged",
+      "sourceSha256": "8a458c4dae493fca82e1840731380314eabe6091054e2d46cac0d6d877abd68a"
+    },
+    {
+      "path": "skills/agent-browser/templates/capture-workflow.sh",
+      "bytes": 1901,
+      "sha256": "e0d85509da4b7a233737f29c5d60ebc32234f011d7b78e43b77b99ee2e7fe2fa",
+      "status": "unchanged",
+      "sourceSha256": "e0d85509da4b7a233737f29c5d60ebc32234f011d7b78e43b77b99ee2e7fe2fa"
+    },
+    {
+      "path": "skills/agent-browser/templates/form-automation.sh",
+      "bytes": 1900,
+      "sha256": "df4cb56b2c04ab2f707ad003de311d6773b48e6ee6bbef5b36f15e04b8cae44e",
+      "status": "unchanged",
+      "sourceSha256": "df4cb56b2c04ab2f707ad003de311d6773b48e6ee6bbef5b36f15e04b8cae44e"
+    },
+    {
+      "path": "skills/design-system-docs/examples/DESIGN.md",
+      "bytes": 908,
+      "sha256": "447a53ff0ba86f83ffd6c304755a7f8c5a7269e071b6be1b56734bce4fa3408d",
+      "status": "adapted",
+      "sourceSha256": "e856ef5f910f564f3b25a20720e9c74a0691e407e5d0bd8e0abf97b2b7225a24"
+    },
+    {
+      "path": "skills/design-system-docs/LICENSE",
+      "bytes": 11273,
+      "sha256": "b4133a55232c0996713349891dc55469d46a16ec027c033c9e4108b2149abb42",
+      "status": "added"
+    },
+    {
+      "path": "skills/design-system-docs/README.md",
+      "bytes": 427,
+      "sha256": "96278bf35d1d4032f406a1626d5ac4c300fa507220090daeacb3504d5c1801b1",
+      "status": "adapted",
+      "sourceSha256": "d8f3d639cf202f82e4f916600be16d3bf22d6ffc55c228d15cb93662612dc4e9"
+    },
+    {
+      "path": "skills/design-system-docs/SKILL.md",
+      "bytes": 2374,
+      "sha256": "48fc8bc99aea3e745c759bb7e55c3b02107d70c42de4b37aef84fb4f62d27c77",
+      "status": "adapted",
+      "sourceSha256": "eb15f44646528f3a087ce023329ae699c1b6e803662af68338e1eb1c0406b59b"
+    },
+    {
+      "path": "skills/design-system-docs/templates/DESIGN.md",
+      "bytes": 1099,
+      "sha256": "23d7a2ee40a796d7b20014ecdb1ebae30ad0b7290e658ff2fce7f62ef4df1b9e",
+      "status": "added"
+    },
+    {
+      "path": "skills/design-workflow/references/audit.md",
+      "bytes": 7668,
+      "sha256": "89c14206754a94eb695626dfade458507fcb55c88a03f6d9d00cb5c95f2981dd",
+      "status": "adapted",
+      "sourceSha256": "3db757e5336eef0830d5601b321b0cf63df71398e97a4468e583fc17f1ef334b"
+    },
+    {
+      "path": "skills/design-workflow/references/canon-clean-saas.md",
+      "bytes": 7145,
+      "sha256": "ad9475a368998dae96445e3cd43b5e51d416df3d104bb3987bcebbab635e2f5e",
+      "status": "adapted",
+      "sourceSha256": "b98a1af6f138e501316c7fd4fbfb1f97074593d31abe8ebc4281a57cd0deec61"
+    },
+    {
+      "path": "skills/design-workflow/references/discovery.md",
+      "bytes": 6911,
+      "sha256": "98f430f0f7abb2d2e57df5df2540af19fa7d01b88af699f75de1f2ae2307ef3e",
+      "status": "adapted",
+      "sourceSha256": "a23222d51e855a76e4bde8407a4d2e10aceab07846e5d50fae1a913edf612bbc"
+    },
+    {
+      "path": "skills/design-workflow/scripts/decode_mojibake.py",
+      "bytes": 1563,
+      "sha256": "c9034e60dec7ae635203fee9eff9aea622a84278e1bd6df767943fc8f681fd90",
+      "status": "unchanged",
+      "sourceSha256": "c9034e60dec7ae635203fee9eff9aea622a84278e1bd6df767943fc8f681fd90"
+    },
+    {
+      "path": "skills/design-workflow/SKILL.md",
+      "bytes": 5892,
+      "sha256": "993dab3de4cb2531537acab0115cfffb0c9e7f9acad2136159620022fada9afe",
+      "status": "adapted",
+      "sourceSha256": "97b758e42922eca1fcc153583a91ba09977d8b2ee19cc7322a379560f836e7a8"
+    },
+    {
+      "path": "skills/frontend-design/LICENSE.txt",
+      "bytes": 10351,
+      "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549",
+      "status": "unchanged",
+      "sourceSha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549"
+    },
+    {
+      "path": "skills/frontend-design/SKILL.md",
+      "bytes": 9735,
+      "sha256": "4af4d82327469adf61dc8c6ef90171aebe099617c886f9b71e424fa8bcffe536",
+      "status": "adapted",
+      "sourceSha256": "b8009ae690dfa69edc7f08bb8715f32db8817112cfa4388741dbaf876c237df8"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/app-interface.csv",
+      "bytes": 11079,
+      "sha256": "f502a372b25ebd186dc850a77462b1a7c0a95c02595122cd6d55a629739073af",
+      "status": "unchanged",
+      "sourceSha256": "f502a372b25ebd186dc850a77462b1a7c0a95c02595122cd6d55a629739073af"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/catalog-summary.json",
+      "bytes": 2470,
+      "sha256": "804ceaa425ac951a2028fb1030ddd44d44f3c2ecccb1aa924f56b8fa6339e70e",
+      "status": "unchanged",
+      "sourceSha256": "804ceaa425ac951a2028fb1030ddd44d44f3c2ecccb1aa924f56b8fa6339e70e"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/charts.csv",
+      "bytes": 23391,
+      "sha256": "1fd649c00516a24b193940902548d2584381f1e3cfa048490c9f88cddcf65bb4",
+      "status": "unchanged",
+      "sourceSha256": "1fd649c00516a24b193940902548d2584381f1e3cfa048490c9f88cddcf65bb4"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/colors.csv",
+      "bytes": 38133,
+      "sha256": "1c7527d81842b386fbb066376e1e449b05c4bb5db72e6842b51db752801b6fc0",
+      "status": "unchanged",
+      "sourceSha256": "1c7527d81842b386fbb066376e1e449b05c4bb5db72e6842b51db752801b6fc0"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/data-provenance.json",
+      "bytes": 38034,
+      "sha256": "f171af8a6981559f1feca34e65347515035dc6b983661e0ab1698078e12836d7",
+      "status": "unchanged",
+      "sourceSha256": "f171af8a6981559f1feca34e65347515035dc6b983661e0ab1698078e12836d7"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/google-font-licenses.json",
+      "bytes": 453312,
+      "sha256": "7c35e410dd8b5853ca86c3e0e3d3cfb73db1ffa3d9a2fa688c182bc44cd9a8d7",
+      "status": "unchanged",
+      "sourceSha256": "7c35e410dd8b5853ca86c3e0e3d3cfb73db1ffa3d9a2fa688c182bc44cd9a8d7"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/google-fonts.csv",
+      "bytes": 749176,
+      "sha256": "d03194d2c35a2cdc4c6846ddde9beb54fdd1f81a3ddc80fead3c0ba2842b75fb",
+      "status": "unchanged",
+      "sourceSha256": "d03194d2c35a2cdc4c6846ddde9beb54fdd1f81a3ddc80fead3c0ba2842b75fb"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/icons.csv",
+      "bytes": 58051,
+      "sha256": "272ccf0eb60e50ba7af55de3ef5c195d92e1862d411b6cb80d81dec4fe56deee",
+      "status": "unchanged",
+      "sourceSha256": "272ccf0eb60e50ba7af55de3ef5c195d92e1862d411b6cb80d81dec4fe56deee"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/landing.csv",
+      "bytes": 25484,
+      "sha256": "9efd4568de12dc9e9e4c5b7c1743f3643243232d2dbb9257d30d88613d4bb8fc",
+      "status": "unchanged",
+      "sourceSha256": "9efd4568de12dc9e9e4c5b7c1743f3643243232d2dbb9257d30d88613d4bb8fc"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/motion.csv",
+      "bytes": 14697,
+      "sha256": "854b30af6fdd40a735eeed077eabec3a6917923627220bc5062ea8a15165ef6b",
+      "status": "unchanged",
+      "sourceSha256": "854b30af6fdd40a735eeed077eabec3a6917923627220bc5062ea8a15165ef6b"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/phosphor-icons-upstream.json",
+      "bytes": 856515,
+      "sha256": "81c37fb3583eb43a91e93f1a62c4da3b4ff089624c06bfe53950b8205b54974d",
+      "status": "unchanged",
+      "sourceSha256": "81c37fb3583eb43a91e93f1a62c4da3b4ff089624c06bfe53950b8205b54974d"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/products.csv",
+      "bytes": 75816,
+      "sha256": "c3ef558cf2987e145e90ab22ff71dbe769d38d2c83999bfd63d7dd58b477f73d",
+      "status": "unchanged",
+      "sourceSha256": "c3ef558cf2987e145e90ab22ff71dbe769d38d2c83999bfd63d7dd58b477f73d"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/react-performance.csv",
+      "bytes": 15125,
+      "sha256": "4dc9b897a2150a8f30b4ad18f67ebc62074d1706bde9849c189b7f511fb821d2",
+      "status": "unchanged",
+      "sourceSha256": "4dc9b897a2150a8f30b4ad18f67ebc62074d1706bde9849c189b7f511fb821d2"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/angular.csv",
+      "bytes": 19914,
+      "sha256": "9fc11f2b1c9efe6aac4e0416f2a022389c1ee005551523fc6a776cd39494eb2c",
+      "status": "unchanged",
+      "sourceSha256": "9fc11f2b1c9efe6aac4e0416f2a022389c1ee005551523fc6a776cd39494eb2c"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/astro.csv",
+      "bytes": 14645,
+      "sha256": "85ddebda566b2814a6088140d06af2b729d582d5df73ba5f954a9009e17b3a5d",
+      "status": "unchanged",
+      "sourceSha256": "85ddebda566b2814a6088140d06af2b729d582d5df73ba5f954a9009e17b3a5d"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/avalonia.csv",
+      "bytes": 27337,
+      "sha256": "4a74d890841ccddd2811c2a8fbe984f9387d6f5a6e5ba1590af35f91df24d7ce",
+      "status": "adapted",
+      "sourceSha256": "a7ea4a448bb26e50b8eb69f8c191ecb374aaa4ddea6b39deadf2ad5d482e71d9"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/flutter.csv",
+      "bytes": 14245,
+      "sha256": "be5422f81892515ea4646460a7a77c95a4e22db0d112b05d5885757fd5c16016",
+      "status": "unchanged",
+      "sourceSha256": "be5422f81892515ea4646460a7a77c95a4e22db0d112b05d5885757fd5c16016"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+      "bytes": 16611,
+      "sha256": "4004df03af7cf4cdd635d7a2127f6da4f94f6718af6556bee6bc2a14e6093cb8",
+      "status": "unchanged",
+      "sourceSha256": "4004df03af7cf4cdd635d7a2127f6da4f94f6718af6556bee6bc2a14e6093cb8"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/javafx.csv",
+      "bytes": 33582,
+      "sha256": "dff94810a16c181eaa1ccfb4160f1ecd435d6872d7ac35699fbc031e4fadd024",
+      "status": "adapted",
+      "sourceSha256": "f1d83197228e5265f80a8cb9598c03c76d4280bfb2804aca6eef841f5972b449"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+      "bytes": 12348,
+      "sha256": "3e39065aa4c08e88117905558979a6bad799f691f72dc570b82b6d206b627a1d",
+      "status": "unchanged",
+      "sourceSha256": "3e39065aa4c08e88117905558979a6bad799f691f72dc570b82b6d206b627a1d"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/laravel.csv",
+      "bytes": 20214,
+      "sha256": "2491ee000953ae99b929bcf9a3937672a8c4e0cc89d4737e12cb5fbe6d46d96d",
+      "status": "unchanged",
+      "sourceSha256": "2491ee000953ae99b929bcf9a3937672a8c4e0cc89d4737e12cb5fbe6d46d96d"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/nextjs.csv",
+      "bytes": 18749,
+      "sha256": "ece292708d2d4d41aaa6f339640f4ffc1adf5d052a7d633cc0201d5a79307c37",
+      "status": "unchanged",
+      "sourceSha256": "ece292708d2d4d41aaa6f339640f4ffc1adf5d052a7d633cc0201d5a79307c37"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+      "bytes": 28777,
+      "sha256": "5b76f8506e34369d23ea70c79f96c6292db91d8c5df52cf6534c7b36b22a4127",
+      "status": "unchanged",
+      "sourceSha256": "5b76f8506e34369d23ea70c79f96c6292db91d8c5df52cf6534c7b36b22a4127"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+      "bytes": 23082,
+      "sha256": "ebe9bfe54cb1ee6e26c6776d72fa2290e7ba289d116afd6857e4d68a21475bb4",
+      "status": "unchanged",
+      "sourceSha256": "ebe9bfe54cb1ee6e26c6776d72fa2290e7ba289d116afd6857e4d68a21475bb4"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/react-native.csv",
+      "bytes": 14101,
+      "sha256": "1f7c99ea422ecd84ba3b0df5920c25f315ca9f3a15cf862a9a7183ed50e9a5e9",
+      "status": "unchanged",
+      "sourceSha256": "1f7c99ea422ecd84ba3b0df5920c25f315ca9f3a15cf862a9a7183ed50e9a5e9"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/react.csv",
+      "bytes": 21233,
+      "sha256": "6a4cb8e26393afe21f5a5ec171c6ed1c9438b46a5330923cc3d83bc99406cee6",
+      "status": "unchanged",
+      "sourceSha256": "6a4cb8e26393afe21f5a5ec171c6ed1c9438b46a5330923cc3d83bc99406cee6"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/shadcn.csv",
+      "bytes": 23253,
+      "sha256": "14d303b0adef425c388367e6825b92808cacbc0846e554889507c288b9e8e53d",
+      "status": "unchanged",
+      "sourceSha256": "14d303b0adef425c388367e6825b92808cacbc0846e554889507c288b9e8e53d"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/svelte.csv",
+      "bytes": 15134,
+      "sha256": "59af6ab78a0550313489441fffe17d7317de5a819aa992b1e2dca73ecb0a82d6",
+      "status": "unchanged",
+      "sourceSha256": "59af6ab78a0550313489441fffe17d7317de5a819aa992b1e2dca73ecb0a82d6"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/swiftui.csv",
+      "bytes": 15374,
+      "sha256": "29b62817abfc03a0789180247ce98ac6fe00b7e54632c328c71af707e68d6915",
+      "status": "unchanged",
+      "sourceSha256": "29b62817abfc03a0789180247ce98ac6fe00b7e54632c328c71af707e68d6915"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/threejs.csv",
+      "bytes": 46823,
+      "sha256": "d690c41d86d87747d6b7be6e6e8cd95432d31edb31f19497c0e56e8997b35cfc",
+      "status": "unchanged",
+      "sourceSha256": "d690c41d86d87747d6b7be6e6e8cd95432d31edb31f19497c0e56e8997b35cfc"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/uno.csv",
+      "bytes": 30151,
+      "sha256": "a52939b4c3c0fa604ab91d32216b7dba28fcd7b4b03a2e7f46b79749e3241228",
+      "status": "unchanged",
+      "sourceSha256": "a52939b4c3c0fa604ab91d32216b7dba28fcd7b4b03a2e7f46b79749e3241228"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/uwp.csv",
+      "bytes": 24748,
+      "sha256": "ba334d0f2f478d73a7d80528b940f9e2f4ec6a8a7acafae92d69f0fb10837170",
+      "status": "unchanged",
+      "sourceSha256": "ba334d0f2f478d73a7d80528b940f9e2f4ec6a8a7acafae92d69f0fb10837170"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/vue.csv",
+      "bytes": 12863,
+      "sha256": "bb492b870b5bc7abff86dfebe73adad36c811a10907709f6a2da19c388f4edbf",
+      "status": "unchanged",
+      "sourceSha256": "bb492b870b5bc7abff86dfebe73adad36c811a10907709f6a2da19c388f4edbf"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/winui.csv",
+      "bytes": 27950,
+      "sha256": "0a2b7a991adc8f126a31a953b8ad211a8162889fcc4e66c1484328847b206849",
+      "status": "unchanged",
+      "sourceSha256": "0a2b7a991adc8f126a31a953b8ad211a8162889fcc4e66c1484328847b206849"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/stacks/wpf.csv",
+      "bytes": 24215,
+      "sha256": "1b98ddc6354f7e3f05071679dae1c1f49dbda7639e48d5ceb2378e82cd3e2594",
+      "status": "unchanged",
+      "sourceSha256": "1b98ddc6354f7e3f05071679dae1c1f49dbda7639e48d5ceb2378e82cd3e2594"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/styles.csv",
+      "bytes": 149567,
+      "sha256": "667595149f49cc894ac4b7b3468e7b9c6b0c2795ebea26dce20ca3f92044d517",
+      "status": "unchanged",
+      "sourceSha256": "667595149f49cc894ac4b7b3468e7b9c6b0c2795ebea26dce20ca3f92044d517"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/typography.csv",
+      "bytes": 50072,
+      "sha256": "5c32783790714baaa0f870131aacff021b865495008ed8ab65e7ddf894862581",
+      "status": "unchanged",
+      "sourceSha256": "5c32783790714baaa0f870131aacff021b865495008ed8ab65e7ddf894862581"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/ui-reasoning.csv",
+      "bytes": 77553,
+      "sha256": "8c45627a7ac18cc57b8abe909d840aae3cf9a9f3ef15b8a6e1bf6c64fb02ed64",
+      "status": "unchanged",
+      "sourceSha256": "8c45627a7ac18cc57b8abe909d840aae3cf9a9f3ef15b8a6e1bf6c64fb02ed64"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/data/ux-guidelines.csv",
+      "bytes": 27636,
+      "sha256": "0552e850d47fb5b5cf0b2e35784e1d44f6b2aea52c9255193f7eb2588c2c9f4b",
+      "status": "unchanged",
+      "sourceSha256": "0552e850d47fb5b5cf0b2e35784e1d44f6b2aea52c9255193f7eb2588c2c9f4b"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/LICENSE",
+      "bytes": 1075,
+      "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
+      "status": "added"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/README.md",
+      "bytes": 1061,
+      "sha256": "850c66536f1c88db21b0d4e63056ffdd0d88c06a116d7b6890aac0b059c708e9",
+      "status": "added"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/references/pro-rules.md",
+      "bytes": 11026,
+      "sha256": "b64961a5f324bf0c480dd06c6154787298c4baa6d07fdcd8dab1fee7058c09f8",
+      "status": "unchanged",
+      "sourceSha256": "b64961a5f324bf0c480dd06c6154787298c4baa6d07fdcd8dab1fee7058c09f8"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/references/quick-reference.md",
+      "bytes": 24782,
+      "sha256": "b3ada267d3fa7c6237834683748bc0b486c7c15ebf6f0590ce38bf6b988595d5",
+      "status": "unchanged",
+      "sourceSha256": "b3ada267d3fa7c6237834683748bc0b486c7c15ebf6f0590ce38bf6b988595d5"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/core.py",
+      "bytes": 42229,
+      "sha256": "9169fdda39bf41c5e528caf04a996f8c943bc8838062967c725fc39522760a4e",
+      "status": "unchanged",
+      "sourceSha256": "9169fdda39bf41c5e528caf04a996f8c943bc8838062967c725fc39522760a4e"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/design_system.py",
+      "bytes": 73205,
+      "sha256": "64457f35d085208d5075f9a519cfc502089a7630ca43976df07652b97566cc41",
+      "status": "unchanged",
+      "sourceSha256": "64457f35d085208d5075f9a519cfc502089a7630ca43976df07652b97566cc41"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+      "bytes": 5947,
+      "sha256": "094c8d35e7e69b243f57c4be5d61096634f8e2144fa03afd2b18c5f97de1cffb",
+      "status": "unchanged",
+      "sourceSha256": "094c8d35e7e69b243f57c4be5d61096634f8e2144fa03afd2b18c5f97de1cffb"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/search.py",
+      "bytes": 9550,
+      "sha256": "0e106775eed61e2954c0af41e9ed73b816c3bfbb2de936e07957907db846b7d6",
+      "status": "unchanged",
+      "sourceSha256": "0e106775eed61e2954c0af41e9ed73b816c3bfbb2de936e07957907db846b7d6"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-api.json",
+      "bytes": 1115,
+      "sha256": "503a0d00ebf5621b70a1035425701d7204f18998b8a983b8aaf53e69848fcc8c",
+      "status": "unchanged",
+      "sourceSha256": "503a0d00ebf5621b70a1035425701d7204f18998b8a983b8aaf53e69848fcc8c"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-catalog.json",
+      "bytes": 1805,
+      "sha256": "b83a59f0374fbb771b37288cacca3b9525a1c6c435c8b51f34da4e8f7315eb11",
+      "status": "unchanged",
+      "sourceSha256": "b83a59f0374fbb771b37288cacca3b9525a1c6c435c8b51f34da4e8f7315eb11"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-existing.csv",
+      "bytes": 483,
+      "sha256": "a897ec8bdccd93f416ec51797e7bd58ecb7009d0fb74b3bca615b1a073b50435",
+      "status": "unchanged",
+      "sourceSha256": "a897ec8bdccd93f416ec51797e7bd58ecb7009d0fb74b3bca615b1a073b50435"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-metadata.json",
+      "bytes": 345,
+      "sha256": "12b4a4c05fdb56fa720a01bd83abc3da4a7dde2295998cab59d73a47b9428c10",
+      "status": "unchanged",
+      "sourceSha256": "12b4a4c05fdb56fa720a01bd83abc3da4a7dde2295998cab59d73a47b9428c10"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-overrides.json",
+      "bytes": 104,
+      "sha256": "507032ab4482cc5079e427280e904ee89c9f255a0474ff7d32947cc0d75bc541",
+      "status": "unchanged",
+      "sourceSha256": "507032ab4482cc5079e427280e904ee89c9f255a0474ff7d32947cc0d75bc541"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/icons-curated.csv",
+      "bytes": 499,
+      "sha256": "e04ac4ef7d95a09276fec3311759206675609c1358300ea4e960214d6c1accfc",
+      "status": "unchanged",
+      "sourceSha256": "e04ac4ef7d95a09276fec3311759206675609c1358300ea4e960214d6c1accfc"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-core.json",
+      "bytes": 594,
+      "sha256": "d22fc37d9e2f7db33ee6284590b87adc6664a251748d9ff9a0f9f78eaee5de33",
+      "status": "unchanged",
+      "sourceSha256": "d22fc37d9e2f7db33ee6284590b87adc6664a251748d9ff9a0f9f78eaee5de33"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-package.json",
+      "bytes": 383,
+      "sha256": "186bfa5abdd5dd1f1629be711dcee8c95edb5c0bd3679c05ce84bd4e927bfde7",
+      "status": "unchanged",
+      "sourceSha256": "186bfa5abdd5dd1f1629be711dcee8c95edb5c0bd3679c05ce84bd4e927bfde7"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-exports.json",
+      "bytes": 91,
+      "sha256": "2818efb3acdcfb68632b483928458f500c470bb70b53461f426101bd95b0fa10",
+      "status": "unchanged",
+      "sourceSha256": "2818efb3acdcfb68632b483928458f500c470bb70b53461f426101bd95b0fa10"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-package.json",
+      "bytes": 86,
+      "sha256": "c46b8f1a61cbf9211d1b3b6ae6dfd781533e7bbd6c9808cc90fa89d72de4911e",
+      "status": "unchanged",
+      "sourceSha256": "c46b8f1a61cbf9211d1b3b6ae6dfd781533e7bbd6c9808cc90fa89d72de4911e"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-baseline.json",
+      "bytes": 92792,
+      "sha256": "f1cab931dc0fe61c8e668fbf8b16ae0d3a7374fc9db3481b49624e42aa8a4097",
+      "status": "unchanged",
+      "sourceSha256": "f1cab931dc0fe61c8e668fbf8b16ae0d3a7374fc9db3481b49624e42aa8a4097"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-cases.json",
+      "bytes": 36845,
+      "sha256": "9ebf970dd96c5ffb62e1c533f344362c7becf4c8773c2956554578986fb4ffb1",
+      "status": "unchanged",
+      "sourceSha256": "9ebf970dd96c5ffb62e1c533f344362c7becf4c8773c2956554578986fb4ffb1"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-thresholds.json",
+      "bytes": 5179,
+      "sha256": "d6b65b442a7359b3d3289ee9063ca63b4e6affcb4e4f020592a44da75df89f3c",
+      "status": "unchanged",
+      "sourceSha256": "d6b65b442a7359b3d3289ee9063ca63b4e6affcb4e4f020592a44da75df89f3c"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_catalog_refresh.py",
+      "bytes": 19820,
+      "sha256": "8f006f97be04669a8c08aec20fcea3c02f54d0e047cbffb4f962b78d1f66a3f4",
+      "status": "unchanged",
+      "sourceSha256": "8f006f97be04669a8c08aec20fcea3c02f54d0e047cbffb4f962b78d1f66a3f4"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_catalog_summary_line_endings.py",
+      "bytes": 3025,
+      "sha256": "273e1843cf64e129b7ca964b36c44bf7bb364d83e30d0a14e9522c3980264ad6",
+      "status": "unchanged",
+      "sourceSha256": "273e1843cf64e129b7ca964b36c44bf7bb364d83e30d0a14e9522c3980264ad6"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_core.py",
+      "bytes": 17023,
+      "sha256": "2487a5d776ac2d8070d12686357124523dc0aec94d38acbfdd677e40c51a3857",
+      "status": "unchanged",
+      "sourceSha256": "2487a5d776ac2d8070d12686357124523dc0aec94d38acbfdd677e40c51a3857"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_core_data_quality.py",
+      "bytes": 9152,
+      "sha256": "c1e58089471d86667656c2453da49b4adcac1e81d6e84eaddcc4a39fde509ee8",
+      "status": "unchanged",
+      "sourceSha256": "c1e58089471d86667656c2453da49b4adcac1e81d6e84eaddcc4a39fde509ee8"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py",
+      "bytes": 19934,
+      "sha256": "0dfa5544bd5a2bd06a93e9a027dd2bbae0ad6351c37e9b7fb64e5aea78d76aae",
+      "status": "unchanged",
+      "sourceSha256": "0dfa5544bd5a2bd06a93e9a027dd2bbae0ad6351c37e9b7fb64e5aea78d76aae"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_design_system_mode.py",
+      "bytes": 10048,
+      "sha256": "27554cfbcd375ce8f5b4ac97a0ab420bab182a264bf7d96aa37d3207abdb12c8",
+      "status": "unchanged",
+      "sourceSha256": "27554cfbcd375ce8f5b4ac97a0ab420bab182a264bf7d96aa37d3207abdb12c8"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_design_system_stack.py",
+      "bytes": 2322,
+      "sha256": "0f9efc89b66a360933f0e748bbb0ff1a1845f74249632a29b50964825dbe3c6c",
+      "status": "unchanged",
+      "sourceSha256": "0f9efc89b66a360933f0e748bbb0ff1a1845f74249632a29b50964825dbe3c6c"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_native_desktop_stack_freshness.py",
+      "bytes": 8554,
+      "sha256": "7fa718a4dc5472fdbe6767eb0fb08e660f9ddad8e27669cb9716e6e950b9857c",
+      "status": "unchanged",
+      "sourceSha256": "7fa718a4dc5472fdbe6767eb0fb08e660f9ddad8e27669cb9716e6e950b9857c"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_relevance_evaluator.py",
+      "bytes": 8612,
+      "sha256": "b5aef6bbdefd7b72ca3d23f6331a13671cf40ecbe3fbb20cb735c201e78f8f5a",
+      "status": "unchanged",
+      "sourceSha256": "b5aef6bbdefd7b72ca3d23f6331a13671cf40ecbe3fbb20cb735c201e78f8f5a"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_skill_script_paths.py",
+      "bytes": 4387,
+      "sha256": "e9ddd562c16d577675707d9534a01b5237b6a4960a5fffa15c920d9a5b2858e2",
+      "status": "unchanged",
+      "sourceSha256": "e9ddd562c16d577675707d9534a01b5237b6a4960a5fffa15c920d9a5b2858e2"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py",
+      "bytes": 7600,
+      "sha256": "1257b28c39f2173289214f9462b780cb296467ba93e382560d076a4792b0df90",
+      "status": "unchanged",
+      "sourceSha256": "1257b28c39f2173289214f9462b780cb296467ba93e382560d076a4792b0df90"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_text_layout_resilience.py",
+      "bytes": 5994,
+      "sha256": "da649f4c3e7ca751b8b5c76495c411f9efd137b78f17ca6e4ad35d831a8326b7",
+      "status": "unchanged",
+      "sourceSha256": "da649f4c3e7ca751b8b5c76495c411f9efd137b78f17ca6e4ad35d831a8326b7"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/tests/test_web_stack_freshness.py",
+      "bytes": 7878,
+      "sha256": "e35c8835c1c8bbef4c0996df749770ed4ba6598d85791cccfd04896d728bd5cd",
+      "status": "unchanged",
+      "sourceSha256": "e35c8835c1c8bbef4c0996df749770ed4ba6598d85791cccfd04896d728bd5cd"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/scripts/validate_data.py",
+      "bytes": 53325,
+      "sha256": "0a40f854159a855133d08e73795abf94a8cb30f84c02f4d6e1d1c7a62225b2b6",
+      "status": "unchanged",
+      "sourceSha256": "0a40f854159a855133d08e73795abf94a8cb30f84c02f4d6e1d1c7a62225b2b6"
+    },
+    {
+      "path": "skills/ui-ux-pro-max/SKILL.md",
+      "bytes": 15900,
+      "sha256": "56031317621b9268f84c21d41fe365f3eef925d56c4cc5c333100623128c71aa",
+      "status": "adapted",
+      "sourceSha256": "88aadd21220542083a455e373bd162ffe7843266a71f06f4d837bb3b34f9c9c7"
+    },
+    {
+      "path": "skills/ux-heuristics/heuristics.md",
+      "bytes": 7630,
+      "sha256": "247ac34c19ff0195a21713f014e9dd5470569c0e1e875cf848e089e96e8deb84",
+      "status": "unchanged",
+      "sourceSha256": "247ac34c19ff0195a21713f014e9dd5470569c0e1e875cf848e089e96e8deb84"
+    },
+    {
+      "path": "skills/ux-heuristics/LICENSE",
+      "bytes": 1077,
+      "sha256": "5ca2920d4f56954100c8f365461aba7b6c6154da49734f7b2703d9275ad49d11",
+      "status": "unchanged",
+      "sourceSha256": "5ca2920d4f56954100c8f365461aba7b6c6154da49734f7b2703d9275ad49d11"
+    },
+    {
+      "path": "skills/ux-heuristics/README.md",
+      "bytes": 765,
+      "sha256": "2d2c23b984cdced7f63eb6b48fdb58b1a3504857e8bc0da5986cadda574476ce",
+      "status": "unchanged",
+      "sourceSha256": "2d2c23b984cdced7f63eb6b48fdb58b1a3504857e8bc0da5986cadda574476ce"
+    },
+    {
+      "path": "skills/ux-heuristics/SKILL.md",
+      "bytes": 5020,
+      "sha256": "782af8acaed26f8a11b1bffb5a7bd392043e61854b4a3e144cbdae86a68c9457",
+      "status": "adapted",
+      "sourceSha256": "565bedc1b6aa679610e6c8577730299ef378b5b56ee65da34dc3a9f9e6e1a6b9"
+    },
+    {
+      "path": "skills/ux-principles/laws.md",
+      "bytes": 4593,
+      "sha256": "593417aa79993d806f970b9b05defa093eb035c5a17f292fee39e76e0afa8386",
+      "status": "unchanged",
+      "sourceSha256": "593417aa79993d806f970b9b05defa093eb035c5a17f292fee39e76e0afa8386"
+    },
+    {
+      "path": "skills/ux-principles/LICENSE",
+      "bytes": 1077,
+      "sha256": "5ca2920d4f56954100c8f365461aba7b6c6154da49734f7b2703d9275ad49d11",
+      "status": "unchanged",
+      "sourceSha256": "5ca2920d4f56954100c8f365461aba7b6c6154da49734f7b2703d9275ad49d11"
+    },
+    {
+      "path": "skills/ux-principles/principles.md",
+      "bytes": 3446,
+      "sha256": "e024eb2740e17f99596228e4a91c40d0693b61f9293a9cded5cd0e107a00c564",
+      "status": "unchanged",
+      "sourceSha256": "e024eb2740e17f99596228e4a91c40d0693b61f9293a9cded5cd0e107a00c564"
+    },
+    {
+      "path": "skills/ux-principles/README.md",
+      "bytes": 1111,
+      "sha256": "25c39644892a3792fb3ea16e6a442601d594bc7c786641faca5895b89bca35b9",
+      "status": "unchanged",
+      "sourceSha256": "25c39644892a3792fb3ea16e6a442601d594bc7c786641faca5895b89bca35b9"
+    },
+    {
+      "path": "skills/ux-principles/SKILL.md",
+      "bytes": 4173,
+      "sha256": "dd71767daff0153aa358881c066fe0cd0b858c767fb2d5eb8971677fb0f40686",
+      "status": "adapted",
+      "sourceSha256": "279936ec55fb259f6695ec20d0ad4d6df48dc15da74c8e70db0e5be7d7e8f715"
+    },
+    {
+      "path": "skills/web-artifacts/references/cdn.md",
+      "bytes": 5506,
+      "sha256": "07f4d28bbf06a86013d4549cb3049555a384571437e1db15153e080f91cd5f6a",
+      "status": "adapted",
+      "sourceSha256": "5d2bca5a56fa3fc11e834a29d5721cbd48ea6a4801fb18f495e1dbd2e8c28050"
+    },
+    {
+      "path": "skills/web-artifacts/references/mobile-first.md",
+      "bytes": 5190,
+      "sha256": "33812ad02fffcc75569c5ee4a11567fcb7e693d56bcfc246947399977a39521b",
+      "status": "adapted",
+      "sourceSha256": "b709b2e119e63a978e709771e00b56c10e05dfb23dc3c8594ab8f35cff409833"
+    },
+    {
+      "path": "skills/web-artifacts/references/remote-delivery.md",
+      "bytes": 1136,
+      "sha256": "dc8507b6dec1140cfbf6e29136e6ccfe16b318453de72e7be98330a62c44bdf1",
+      "status": "added"
+    },
+    {
+      "path": "skills/web-artifacts/references/synthwave-theme.md",
+      "bytes": 4781,
+      "sha256": "dcf1664297f27b5f92043cd8c173aae86613e061a3d2e4aa711572cf0e9076e5",
+      "status": "adapted",
+      "sourceSha256": "cdedec58a5b7040a377defe4683d1dd7f2c9386547120d3cb4cdb80ed8e44f74"
+    },
+    {
+      "path": "skills/web-artifacts/scripts/save_local.py",
+      "bytes": 4270,
+      "sha256": "e5aa6e33e56da91dbabe58b9f7d8535a20ea071debdb473ae1e70d84b1da93f8",
+      "status": "added"
+    },
+    {
+      "path": "skills/web-artifacts/SKILL.md",
+      "bytes": 3553,
+      "sha256": "4fdb96d41b9bd7f7c9cbdfad9a865e71a0eb3cd0a1667898261f9d6f74599e4a",
+      "status": "adapted",
+      "sourceSha256": "5905c85f3ae6746aeb31984dc44dc23173999b3a8451501f647dfd5c1c77643f"
+    },
+    {
+      "path": "skills/web-artifacts/templates/bare.html",
+      "bytes": 4133,
+      "sha256": "6cec13988508842e106978a1bfa6ccf90144cad511dd8c55d0812560a5e56d2d",
+      "status": "adapted",
+      "sourceSha256": "3c6b4d7e82f3f137786d69fd2fd49b1ad828420a9c00679077d09fea0843acdc"
+    },
+    {
+      "path": "skills/web-artifacts/templates/interactive-demo.html",
+      "bytes": 6184,
+      "sha256": "ba8d027324478a9d7e302a8042431ce70ebea3efa86b7c222cf1473520d42703",
+      "status": "added"
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 18499,
+      "sha256": "78ad8870a6885b5553243001a4c876e0492af2c3d3341cf1ed775c17d71aac6d",
+      "status": "added"
+    },
+    {
+      "path": "tests/test_local_artifact.py",
+      "bytes": 3431,
+      "sha256": "e1f377c57fd5d341c7ae2719729fae297621b08ae2e620cb6740355c09e50215",
+      "status": "added"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 4172,
+      "sha256": "51502e821dce8bfe3be91c3e97c8f0ae4b34059432f048b8826c81a37f339adf",
+      "status": "added"
+    }
+  ]
+}

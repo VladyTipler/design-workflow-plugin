@@ -1,0 +1,34 @@
+{
+  "browser": "agent-browser 0.35.1 / Chromium",
+  "fileScheme": true,
+  "offline": true,
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "checks": [
+    "file URL opened offline",
+    "initial 3 tasks",
+    "desktop has no horizontal overflow",
+    "completion removes task",
+    "undo restores task",
+    "filter returns one task",
+    "empty filter state visible",
+    "empty task has visible validation",
+    "add task works",
+    "dark theme and accessible state",
+    "mobile has no horizontal overflow",
+    "all demo buttons at least 44px tall",
+    "keyboard focus visible",
+    "no HTTP runtime resource requests",
+    "no page errors"
+  ],
+  "pageErrors": [],
+  "scope": "Bundled fictional interactive demo only, not native client installation."
+}

@@ -1,0 +1,32 @@
+{
+  "copiedWholePackage": true,
+  "pathContainsSpaces": true,
+  "independentWorkingDirectory": true,
+  "globalInstall": false,
+  "results": [
+    {
+      "check": "verify_package.py",
+      "exitCode": 0
+    },
+    {
+      "check": "local unit tests",
+      "exitCode": 0
+    },
+    {
+      "check": "run_ui_tests.py",
+      "exitCode": 0
+    },
+    {
+      "check": "validate_data.py",
+      "exitCode": 0
+    },
+    {
+      "check": "search.py",
+      "exitCode": 0
+    },
+    {
+      "check": "save_local.py",
+      "exitCode": 0
+    }
+  ]
+}

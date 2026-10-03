@@ -1,0 +1,16 @@
+{
+  "name": "design-workflow-local",
+  "owner": {
+    "name": "VladyTipler",
+    "url": "https://github.com/VladyTipler"
+  },
+  "plugins": [
+    {
+      "name": "design-workflow",
+      "version": "0.1.0",
+      "description": "Portable UX audit, design exploration, local HTML prototyping and design-system documentation.",
+      "source": "./"
+    }
+  ],
+  "description": "Eight skills for UX audits, design choices and local HTML prototypes."
+}
