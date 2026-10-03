@@ -12,7 +12,7 @@
     "ux-principles": 5,
     "web-artifacts": 8
   },
-  "externalReferenceCount": 2995,
+  "externalReferenceCount": 2998,
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
@@ -124,8 +124,8 @@
     },
     {
       "path": "EXTERNAL_REFERENCES.json",
-      "bytes": 720604,
-      "sha256": "7f80091fc6a5e0fa2febd830f805770178cae49b8a5eecabe3c1321774f3b240",
+      "bytes": 721488,
+      "sha256": "43b3937a789efe4b0f3782aa391085594497bf0edefa3342803229a5c6952d96",
       "status": "added"
     },
     {
@@ -148,8 +148,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10298,
-      "sha256": "9ac36bfb90e17dc536f2ceb4933afc70a89dfc380efbb46b9c1d3fe67cb7afc1",
+      "bytes": 13524,
+      "sha256": "cdcbdf13b96aaf81cc4e9cf173cde66fe373bb7f6d38904d47bf7f99652bd8a5",
       "status": "added"
     },
     {
@@ -220,8 +220,8 @@
     },
     {
       "path": "skills/agent-browser/SKILL.md",
-      "bytes": 8278,
-      "sha256": "3480c8b74cae2d8d35ef0720613af0a6e11839edd608a76f95a48eb01e1f1eb1",
+      "bytes": 10578,
+      "sha256": "7854fe75cdf28d2862bfee740ad68fd003c63ba7c5bb1a20f9988d63ae568d6e",
       "status": "adapted",
       "sourceSha256": "54ba9ac911f45861b119983132c2a5b954cb0dbadc980e8b14f72ccfcfc5ae6f"
     },
@@ -309,8 +309,8 @@
     },
     {
       "path": "skills/design-workflow/SKILL.md",
-      "bytes": 5892,
-      "sha256": "993dab3de4cb2531537acab0115cfffb0c9e7f9acad2136159620022fada9afe",
+      "bytes": 6008,
+      "sha256": "7f6386f9b4ff02630923730826cfe85a641e37d44f645775cb966e836f01e797",
       "status": "adapted",
       "sourceSha256": "97b758e42922eca1fcc153583a91ba09977d8b2ee19cc7322a379560f836e7a8"
     },

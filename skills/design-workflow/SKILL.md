@@ -21,7 +21,7 @@ This skill orchestrates the seven sibling skills below. Use the client's skill m
 
 ## R — Redesign
 
-1. Read references/audit.md. Recon the actual interface through agent-browser when browser access exists. Use an isolated session, desktop and mobile widths, screenshots and fresh DOM snapshots after navigation. Do not reuse a personal browser profile implicitly. If access is unavailable, use supplied screenshots/source and report coverage gaps.
+1. Read references/audit.md. Before live recon, follow agent-browser’s runtime prerequisite check: the skill does not install its CLI/browser. Recon the actual interface through agent-browser when browser access exists. Use an isolated session, desktop and mobile widths, screenshots and fresh DOM snapshots after navigation. Do not reuse a personal browser profile implicitly. If access is unavailable, use supplied screenshots/source and report coverage gaps.
 2. Inventory every observed control: role, content, dependency, permission and state. Check hidden sections and duplicate concepts. If a snapshot has encoding damage, scripts/decode_mojibake.py is a conditional repair tool: explicit input/output, preserve the original, inspect the result before trusting it.
 3. Use ux-heuristics for an evidence-backed scorecard and ux-principles for additional root-cause explanations. Every finding needs location, evidence, severity and a concrete fix. Use ui-ux-pro-max conditionally for a specific visual, accessibility or implementation question; verify recommendation fit.
 4. Use frontend-design and web-artifacts to show 3–4 layout concepts with real content. The user chooses the structure.

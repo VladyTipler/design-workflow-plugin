@@ -6,6 +6,31 @@ allowed-tools: Bash(agent-browser:*)
 
 # Browser Automation with agent-browser
 
+## Runtime prerequisite: install the program separately
+
+This skill supplies instructions, not the agent-browser executable or browser binaries. Before automation, check the confirmed installed CLI with agent-browser --version and --help. A project-local installation may need its npm script or local executable; never use npx as a no-install existence check.
+
+Prerequisites: the CLI on PATH or a known local path; a launchable Chrome/Chromium; permission to launch it. The npm route needs Node.js/npm compatible with the chosen package's engines (current upstream package.json specifies Node >=24). The native daemon needs no separate Playwright or Rust toolchain installation.
+
+Check browser availability in an isolated session/configuration, without a personal profile:
+
+    agent-browser --session design-workflow-check open about:blank
+    agent-browser --session design-workflow-check snapshot
+    agent-browser --session design-workflow-check close
+
+CLI version success does not prove the browser can launch. Report command-not-found, missing browser binaries, missing Linux libraries, or denied launch permissions separately.
+
+If absent, explain the selected setup before acting. Install/download only when the user's existing authorization or explicit approval covers that method and destination; never silently install:
+
+    npm install -g agent-browser
+    agent-browser install
+
+The second command downloads Chrome for Testing. A project-local alternative is npm install agent-browser followed by npx agent-browser install, inside the authorized project. macOS can use brew install agent-browser, then agent-browser install. Windows uses the npm route in PowerShell/CMD. Linux may need agent-browser install --with-deps for system libraries and elevated permissions; that flag is Linux-only.
+
+If setup is unavailable or unauthorized, use an available authorized browser tool or supplied screenshots/source. Continue standalone HTML creation and report the missing runtime check; do not block offline artifact delivery.
+
+Verify current setup details in [official installation](https://agent-browser.dev/installation), [upstream README](https://github.com/vercel-labs/agent-browser#installation), and [package engines](https://github.com/vercel-labs/agent-browser/blob/main/package.json).
+
 ## Core Workflow
 
 Every browser automation follows this pattern:

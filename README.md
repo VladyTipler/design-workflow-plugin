@@ -96,9 +96,41 @@ Python 3 нужен только для локальных вспомогате�
 
 - Для чтения и выполнения методик: клиент с доступом к Markdown и файлам проекта.
 - Python 3: только scripts поиска UI, валидации и сохранения HTML; сторонние Python packages не нужны.
-- agent-browser CLI и доступный совместимый браузер: условно, для live-recon и runtime-проверки. Смотрите help установленной версии; этот комплект не устанавливает CLI/browser.
+- Отдельная программа agent-browser и Chrome/Chromium: условно, для live-recon и runtime-проверки. Навык из плагина не устанавливает программу или браузер; setup описан ниже.
 - Совместимая POSIX оболочка: только если используются .sh-примеры agent-browser.
 - Удалённый hosting/tool: только по явному запросу; local HTML работает без него. Пример project config: .design-workflow.example.json.
+
+### agent-browser: отдельная программа
+
+Bundled skill — инструкции, а не исполняемый CLI. Для автоматизации нужны agent-browser в PATH (или подтверждённая локальная установка проекта) и доступный Chrome/Chromium. Для npm-способа нужны Node.js/npm; сверяйте engines выбранной версии: [текущий upstream manifest](https://github.com/vercel-labs/agent-browser/blob/main/package.json) указывает Node.js ≥24. Native daemon не требует отдельной установки Playwright или Rust toolchain.
+
+Проверка CLI и запуска браузера в отдельной сессии:
+
+    agent-browser --version
+    agent-browser --help
+    agent-browser --session design-workflow-check open about:blank
+    agent-browser --session design-workflow-check snapshot
+    agent-browser --session design-workflow-check close
+
+Используйте изолированную конфигурацию, без подключения к личному профилю. Отсутствие команды и неудачный запуск браузера — разные причины: версия CLI сама по себе не подтверждает наличие браузера.
+
+Установка **только при соответствующем разрешении пользователя**:
+
+    npm install -g agent-browser
+    agent-browser install
+
+Вторая команда скачивает Chrome for Testing. Альтернатива внутри выбранного проекта:
+
+    npm install agent-browser
+    npx agent-browser install
+
+После локальной установки запускайте CLI через npm scripts или npx. Не используйте npx как проверку отсутствующей программы: он может скачать пакет.
+
+macOS: вместо npm можно использовать brew install agent-browser, затем agent-browser install. Windows: используйте npm-способ в PowerShell/CMD. Linux: если отсутствуют системные библиотеки браузера, agent-browser install --with-deps устанавливает и их; могут потребоваться повышенные права. --with-deps относится только к Linux.
+
+Если CLI/browser отсутствует или установка не разрешена, сообщите точный пробел и предложите setup либо доступный альтернативный browser tool. Продолжайте создание standalone HTML и анализ предоставленных скриншотов/кода; runtime-проверку пометьте как невыполненную. Этот плагин ничего не устанавливает автоматически.
+
+Источники: [официальная установка](https://agent-browser.dev/installation), [upstream README](https://github.com/vercel-labs/agent-browser#installation).
 
 ## Локальная проверка
 

@@ -1,6 +1,6 @@
 {
   "description": "Literal HTTP(S) references, not runtime dependencies. Occurrences are package-relative.",
-  "count": 2995,
+  "count": 2998,
   "references": [
     {
       "url": "http://asia-proxy.example.com:8080",
@@ -181,6 +181,19 @@
         {
           "path": "skills/ui-ux-pro-max/data/stacks/winui.csv",
           "line": 37
+        }
+      ]
+    },
+    {
+      "url": "https://agent-browser.dev/installation",
+      "occurrences": [
+        {
+          "path": "README.md",
+          "line": 133
+        },
+        {
+          "path": "skills/agent-browser/SKILL.md",
+          "line": 32
         }
       ]
     },
@@ -848,7 +861,7 @@
       "occurrences": [
         {
           "path": "skills/agent-browser/SKILL.md",
-          "line": 97
+          "line": 122
         },
         {
           "path": "skills/agent-browser/references/authentication.md",
@@ -877,11 +890,11 @@
       "occurrences": [
         {
           "path": "skills/agent-browser/SKILL.md",
-          "line": 87
+          "line": 112
         },
         {
           "path": "skills/agent-browser/SKILL.md",
-          "line": 215
+          "line": 240
         },
         {
           "path": "skills/agent-browser/references/authentication.md",
@@ -2633,15 +2646,15 @@
       "occurrences": [
         {
           "path": "skills/agent-browser/SKILL.md",
-          "line": 128
+          "line": 153
         },
         {
           "path": "skills/agent-browser/SKILL.md",
-          "line": 149
+          "line": 174
         },
         {
           "path": "skills/agent-browser/SKILL.md",
-          "line": 216
+          "line": 241
         },
         {
           "path": "skills/agent-browser/references/proxy-support.md",
@@ -2766,11 +2779,11 @@
       "occurrences": [
         {
           "path": "skills/agent-browser/SKILL.md",
-          "line": 19
+          "line": 44
         },
         {
           "path": "skills/agent-browser/SKILL.md",
-          "line": 214
+          "line": 239
         }
       ]
     },
@@ -2788,7 +2801,7 @@
       "occurrences": [
         {
           "path": "skills/agent-browser/SKILL.md",
-          "line": 103
+          "line": 128
         }
       ]
     },
@@ -2797,7 +2810,7 @@
       "occurrences": [
         {
           "path": "skills/agent-browser/SKILL.md",
-          "line": 73
+          "line": 98
         }
       ]
     },
@@ -21469,11 +21482,37 @@
       ]
     },
     {
+      "url": "https://github.com/vercel-labs/agent-browser#installation",
+      "occurrences": [
+        {
+          "path": "README.md",
+          "line": 133
+        },
+        {
+          "path": "skills/agent-browser/SKILL.md",
+          "line": 32
+        }
+      ]
+    },
+    {
       "url": "https://github.com/vercel-labs/agent-browser/blob/4d8097a56fe9990eb2e5cecb6d167eb6897eda06/LICENSE",
       "occurrences": [
         {
           "path": "THIRD_PARTY_NOTICES.md",
           "line": 10
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/vercel-labs/agent-browser/blob/main/package.json",
+      "occurrences": [
+        {
+          "path": "README.md",
+          "line": 105
+        },
+        {
+          "path": "skills/agent-browser/SKILL.md",
+          "line": 32
         }
       ]
     },
@@ -25743,7 +25782,7 @@
       "occurrences": [
         {
           "path": "skills/agent-browser/SKILL.md",
-          "line": 116
+          "line": 141
         }
       ]
     },
@@ -25752,7 +25791,7 @@
       "occurrences": [
         {
           "path": "skills/agent-browser/SKILL.md",
-          "line": 117
+          "line": 142
         }
       ]
     },
