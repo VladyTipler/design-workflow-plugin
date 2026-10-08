@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 def package_file(path):
     rel = path.relative_to(ROOT)
-    return path.is_file() and not any(x in {'.git','__pycache__','artifacts'} for x in rel.parts) and path.suffix!='.pyc' and path.name not in {'.design-workflow.json','.env'} and not path.name.startswith('.env.')
+    return path.is_file() and not any(x in {'.git','.scar','__pycache__','artifacts'} for x in rel.parts) and path.suffix!='.pyc' and path.name not in {'.design-workflow.json','.env'} and not path.name.startswith('.env.')
 EXCLUDED = {'FILE_MANIFEST.json'}
 TEXT_SUFFIXES = {'.md','.json','.csv','.py','.html','.sh','.txt'}
 # Generated reference index is not an input to its own index.

@@ -19,12 +19,20 @@ Status: draft / accepted. Scope: <screens and themes inspected>.
 ## Spacing and geometry
 <Spacing scale, grid, breakpoints, radii, borders, shadows, icons.>
 
+## Executable UI Kit ownership
+<Canonical token/layout/component paths; catalogue route; chosen stack. Documentation describes this source, not a separately maintained implementation.>
+
+| Component / layout primitive | Canonical implementation | Catalogue demo | Section consumers | Reuse verification / gaps |
+|---|---|---|---|---|
+
 ## Components and states
 | Component | Anatomy | Implemented states | Missing states | Evidence |
 |---|---|---|---|---|
 
 ## Interaction and accessibility
 <Navigation, keyboard/focus, touch targets, validation, feedback, destructive actions, reduced motion, theme behavior.>
+
+<Choice-control contract: local/API search, grouping/icons, selection preservation, keyboard, loading/empty/error/retry. Shared motion durations/easing and reduced-motion fallback.>
 
 ## Implementation rules
 <Accepted rules demonstrated by the source.>

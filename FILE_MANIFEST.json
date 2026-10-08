@@ -1,11 +1,11 @@
 {
   "description": "Complete package snapshot. This manifest itself is excluded from hashes to avoid self-reference.",
-  "totalFilesIncludingManifest": 145,
+  "totalFilesIncludingManifest": 149,
   "originalResourceCount": 107,
   "skillFileCounts": {
     "agent-browser": 11,
     "design-system-docs": 5,
-    "design-workflow": 5,
+    "design-workflow": 6,
     "frontend-design": 2,
     "ui-ux-pro-max": 75,
     "ux-heuristics": 4,
@@ -22,20 +22,20 @@
     },
     {
       "path": ".claude-plugin/marketplace.json",
-      "bytes": 464,
-      "sha256": "ca689769c093cfbe36bac3271044a44afd15822a4bed5246ecbf7cb0eb8458e6",
+      "bytes": 448,
+      "sha256": "f118d4651c1ca80bcf0ae68665f3e924c51cd4b7d98e5a9db16b089d3b2d65e5",
       "status": "added"
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "bytes": 378,
-      "sha256": "5ce45b9b551035c4747f860ad9b472a61c5982d53560298671aa5fbde7b9e131",
+      "bytes": 367,
+      "sha256": "ab81aa7c051ebb30e2775ac758b80b08b2aa33719a8f93c8e43939f34115865a",
       "status": "added"
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "bytes": 361,
-      "sha256": "6d231ad1c735032f95948dbff62666bc463cd86c70422b22534d0d577cb28433",
+      "bytes": 349,
+      "sha256": "3e188f97c81ecda1166122a10b05719626c030fae85d3fa10079cf690b8f5938",
       "status": "added"
     },
     {
@@ -46,14 +46,14 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 64,
-      "sha256": "9692dbb2aee28a998dfb4f63f1a6a0e3a8b92ecfc99fd3187a991424df46c0db",
+      "bytes": 71,
+      "sha256": "c8d227541b880cc4632acf78c2dd7f939a963ce1772dc5cc91a9d520b4931b10",
       "status": "added"
     },
     {
       "path": ".zcode-plugin/plugin.json",
-      "bytes": 378,
-      "sha256": "5ce45b9b551035c4747f860ad9b472a61c5982d53560298671aa5fbde7b9e131",
+      "bytes": 367,
+      "sha256": "ab81aa7c051ebb30e2775ac758b80b08b2aa33719a8f93c8e43939f34115865a",
       "status": "added"
     },
     {
@@ -111,21 +111,33 @@
       "status": "added"
     },
     {
+      "path": "docs/evidence/ui-kit-workflow-evaluation.md",
+      "bytes": 3593,
+      "sha256": "12f2d7bfb5d86cb4b8783a14042792ea7e5e3a0484395f9af664c2a5df90f08c",
+      "status": "added"
+    },
+    {
       "path": "docs/plans/2026-10-03-portable-design.md",
       "bytes": 1824,
       "sha256": "b00572d4e903bb1c2244f55e7fd37273878d2f6d3dcbe9dcaf6ffe637d2f3053",
       "status": "added"
     },
     {
+      "path": "docs/plans/2026-10-08-ui-kit-ssot.md",
+      "bytes": 1459,
+      "sha256": "1adaecd3bec24631ad1c094227f85672a45976ea5d9a33b1a87f0d2ea2f6bc76",
+      "status": "added"
+    },
+    {
       "path": "docs/validation.md",
-      "bytes": 3600,
-      "sha256": "3843372c907be01ec98f3998797ddce24a57da2f9740280ee5debe1ff9fe360a",
+      "bytes": 4656,
+      "sha256": "b2756e9eda49000b506709a99bd4788445eb20b18e245d19b9f12ea7d75c15b0",
       "status": "added"
     },
     {
       "path": "EXTERNAL_REFERENCES.json",
       "bytes": 721488,
-      "sha256": "43b3937a789efe4b0f3782aa391085594497bf0edefa3342803229a5c6952d96",
+      "sha256": "02e00bace101c371136c76075fee4cd9ebfb97aa41ce86218b9c2cc3d5bd35c1",
       "status": "added"
     },
     {
@@ -136,26 +148,26 @@
     },
     {
       "path": "marketplace.json",
-      "bytes": 464,
-      "sha256": "ca689769c093cfbe36bac3271044a44afd15822a4bed5246ecbf7cb0eb8458e6",
+      "bytes": 448,
+      "sha256": "f118d4651c1ca80bcf0ae68665f3e924c51cd4b7d98e5a9db16b089d3b2d65e5",
       "status": "added"
     },
     {
       "path": "plugin.json",
-      "bytes": 454,
-      "sha256": "6f7cc2be0ba3985877eb1f4d11f4f5b587ee5491aee4d043b926f85d6845fcce",
+      "bytes": 442,
+      "sha256": "6c8aac8d6bee4e92b25f4ab6c0ab2e3d86ecbb91777b7e59aac84fc1f171918c",
       "status": "added"
     },
     {
       "path": "README.md",
-      "bytes": 13542,
-      "sha256": "89acc394d925aba1192f43bcd7b0bbbbee7be5aa48bafbd8b843b38d5231d63d",
+      "bytes": 14890,
+      "sha256": "2ffbd88b65e858f57bd0448ff8ac607e34f62f6abce40d0357c97c1369ec2b0e",
       "status": "added"
     },
     {
       "path": "scripts/build_manifest.py",
-      "bytes": 2814,
-      "sha256": "764abf5526906d396098eb3769dff83f0fb2323304760882fab17e08f772b84a",
+      "bytes": 2822,
+      "sha256": "2cc5ae7ceb0f00f53a72f19d43bd21278c72e18499785c634322bc9d403400d7",
       "status": "added"
     },
     {
@@ -166,8 +178,8 @@
     },
     {
       "path": "scripts/verify_package.py",
-      "bytes": 4304,
-      "sha256": "47c08d6b38bc682d5ac30d5825411e2763c4a19ff7353e72d313086d25504ee0",
+      "bytes": 4312,
+      "sha256": "6f3d845ba3e7a87746a39b4f9848d7057f40fe9e7ed40c6a3b1a15244db3ccaf",
       "status": "added"
     },
     {
@@ -275,8 +287,8 @@
     },
     {
       "path": "skills/design-system-docs/templates/DESIGN.md",
-      "bytes": 1099,
-      "sha256": "23d7a2ee40a796d7b20014ecdb1ebae30ad0b7290e658ff2fce7f62ef4df1b9e",
+      "bytes": 1616,
+      "sha256": "a131798efbd99e9b5e7cd95eece8138b55629d2553274cd2cc3009bda7ea073a",
       "status": "added"
     },
     {
@@ -295,10 +307,16 @@
     },
     {
       "path": "skills/design-workflow/references/discovery.md",
-      "bytes": 6911,
-      "sha256": "98f430f0f7abb2d2e57df5df2540af19fa7d01b88af699f75de1f2ae2307ef3e",
+      "bytes": 7206,
+      "sha256": "7fc54e662e11ea0950abba69fecedc88b34c71a7530b80455e3e8f42ad7ed56a",
       "status": "adapted",
       "sourceSha256": "a23222d51e855a76e4bde8407a4d2e10aceab07846e5d50fae1a913edf612bbc"
+    },
+    {
+      "path": "skills/design-workflow/references/ui-kit-ssot.md",
+      "bytes": 6909,
+      "sha256": "bcb075f6134564dff3f69f3be0f80c06fd5e081a2bb6050f3b450c78d01c6036",
+      "status": "added"
     },
     {
       "path": "skills/design-workflow/scripts/decode_mojibake.py",
@@ -309,8 +327,8 @@
     },
     {
       "path": "skills/design-workflow/SKILL.md",
-      "bytes": 6008,
-      "sha256": "7f6386f9b4ff02630923730826cfe85a641e37d44f645775cb966e836f01e797",
+      "bytes": 8345,
+      "sha256": "01d31fb54acb143f6bad1250ba219b4e0bc656d8059e6282b5c71bfe94e50423",
       "status": "adapted",
       "sourceSha256": "97b758e42922eca1fcc153583a91ba09977d8b2ee19cc7322a379560f836e7a8"
     },
@@ -977,6 +995,12 @@
       "path": "tests/test_local_artifact.py",
       "bytes": 3431,
       "sha256": "e1f377c57fd5d341c7ae2719729fae297621b08ae2e620cb6740355c09e50215",
+      "status": "added"
+    },
+    {
+      "path": "tests/test_package_runtime.py",
+      "bytes": 2471,
+      "sha256": "b3c9c03796abc61f14961b1fcdbec4fb2367aa285b6ae4fe8630a2f5310bf4a9",
       "status": "added"
     },
     {

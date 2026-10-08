@@ -4,3 +4,4 @@ artifacts/
 .design-workflow.json
 .env
 .env.*
+.scar/

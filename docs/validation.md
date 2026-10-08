@@ -1,5 +1,13 @@
 # Проверки и оставшиеся ограничения
 
+## v0.2.0 — UI Kit SSOT
+
+- PASS: 6 executable package/unit tests, including runtime-state exclusion and real hash-mismatch detection; 137 portable UI regressions.
+- PASS: skill frontmatter validator; package resources, relative links, anonymization and regenerated fingerprints.
+- Consumer-agent baseline reproduced screen-first extraction; fresh agents after changes enforce kit-first ownership and reuse an existing approved library. Follow-up G scenario confirmed the stale discovery rule was removed. Evidence and reusable scenarios: [ui-kit-workflow-evaluation.md](evidence/ui-kit-workflow-evaluation.md).
+- New verification covers workflow behavior, not implementation of an application UI Kit. No new application/API or production integration is claimed.
+- Native Codex installation is a release action, verified separately through CLI status and cached source hashes. Existing standalone local skills are not silently overwritten; use the plugin-qualified skill in a new session. Historical client/browser results below remain scoped to v0.1.0.
+
 Фактические результаты 2026-10-03:
 - PASS: 8 навыков, наличие всех 107 исходных ресурсов, относительные Markdown/resource links, manifests, обезличивание и SHA256 текущего манифеста.
 - PASS: 4 unit tests HTML-сохранителя, включая SVG resources; 137 portable UI tests.
